@@ -1,5 +1,5 @@
 ---
-title: 10 Simple Rules for Making Your Stuff Findable
+title: 10 Quick Tips for Making Your Stuff Findable
 author:
   - name: Sarah Lin, MSLIS
     email: sarah.lin@rstudio.com
@@ -10,93 +10,357 @@ address:
     address: 250 Northern Ave., Boston, MA 02210
 abstract: |
   Put something here.
-  
 author_summary: |
   Sarah Lin is the Information Architect & Digital Librarian at RStudio.
-
 bibliography: mybibfile.bib
 output: rticles::plos_article
 csl: plos.csl
 ---
 
-# Introduction
+## Introduction
 
-Scientific professionals have long managed a significant amount of information in their work, but the continued "exponential growth of electronic data increasingly calls for new means of organizing and accessing information" [@Hedden2016].  The resulting glut of information, "has also led to the creation of new technologies to help people organize, find, and make better use of information" [@Rosenfeld2015].  Trying to find a particular bit of information at the moment of need can waste precious time and cause unnecessary frustration.  On top of this, the information scientists need often resides in many formats and is shared with varied audiences, sometimes in multiple versions.  Luckily, librarians make a career out of helping people find information and use information management technologies.  Our skills can be applied by any researcher who feels overwhelmed with information management in their professional life.
+Researchers have always had to manage information of various kinds,
+but the "exponential growth of electronic data increasingly calls for new means of organizing and accessing information" [@Hedden2016].
+The resulting glut of information,
+"has also led to the creation of new technologies to help people organize, find, and make better use of information" [@Rosenfeld2015].
+Trying to find a particular bit of information when needed can waste precious time and cause frustration.
+On top of this,
+information often resides in many formats and is shared with varied audiences,
+sometimes in multiple versions,
+which makes it even harder to separate what's useful from what's merely intriguing.
 
-Library science principles offer a framework and methodology for working through the maze of information generated in professional life.  To frame the following ten rules, know that information ecosystems are composed of three parts: users, context, and content [@Rosenfeld2015].  Successfully solving the challenges of information retrieval at the point of need requires addressing the people who use your information, the context within which it is created, as well as the actual content it contains.  
-
-
-#User Rules
+Luckily,
+librarians make a career out of helping people find information and use information management technologies.
+Library science principles offer ways to work through the maze of information generated in professional life,
+and librarians' skills can be applied by any researcher who feels overwhelmed.
+The ten quick tips in this paper are simple to understand, easy to apply, and effective.
+They are based on the fat that information ecosystems have three parts: users, context, and content [@Rosenfeld2015].
+Solving the challenges of information retrieval at the point of need therefore requires addressing
+the people who use your information,
+the context within which it is created,
+and its actual content.
 
 ## 1. Know Your Users
-The first step in acheiving findability is to establish *who* will find your stuff, well before you make any changes to your content, site or the software you use.  Your users are the individuals who have a "viable and legitimate interest in the work you're doing" [@Covert2014].  In a professional context, your users are vital to your work in several ways.  Through contributions, they can help you iterate your own work or expand upon it in their work.  They are also transmitters of the information you share through their work and networks.  Your users are therefore a vital component of your own professional career and serving their information needs ultimately benefits you tremendously.
 
-Depending on your content and the nature of your role, you might have only a small, expert audience.  If your work is publicly available, however, accept the idea that complete novices will find your work and that your user base is actually quite large.  Novice users should be able to understand and navigate your content just as well as a subject experts.  This much broader range of users means that you would expect a wide spectrum of content knowledge as well as facility navigating your discipline's routine practices.  Remember: your future self is also one of your users!
+The first step to making information findable is to establish who will be doing the finding.
+In a professional context,
+your users are people who have a "viable and legitimate interest in the work you're doing" [@Covert2014].
+Through contributions,
+they can help you iterate your own work or expand upon it in their work.
+They are also transmitters of the information you share through their own work and networks,
+and serving their information needs ultimately benefits you as well as them.
 
-The information you wish to convey and they way it is currently organized probably makes perfect sense to you.  Any meaning made by your users, however, is completely subjective to their experience.  That knowledge is "*whatever a user interprets* from the arrangement or sequence of things they encounter" [@Covert2014].  This is another way of saying that the organization structure(s) you employ are a communication channel in their own right, in addition to the domain knowledge you share.  In addition to knowing who your users are and how important they are to the impact of your work, remember that any information you transmit to them is shaped by the mechanism(s) you use.
+Depending on your content and the nature of your role,
+you might have only a small, expert audience.
+If your work is publicly available,
+however,
+accept the idea that complete novices will find it,
+thereby making your actual user base much larger than you might realize.
+
+Novice users should be able to understand and navigate your content just as well as a subject experts.
+This much broader range of users means that you would expect a wide spectrum of content knowledge
+as well as facility navigating your discipline's routine practices.
+
+The information you wish to convey and they way it is currently organized probably makes perfect sense to you.
+Its meaning for your users,
+however,
+is determined by *their* experience.
+That knowledge is "*whatever a user interprets* from the arrangement or sequence of things they encounter" [@Covert2014].
+This is another way of saying that the organization structure(s) you employ are a communication channel in their own right,
+in addition to the domain knowledge you share.
+In addition to knowing who your users are and how important they are to the impact of your work,
+remember that any information you transmit to them is shaped by the mechanism(s) you use.
 
 ## 2. Define Your Findability Problem
-Before you can design a solution, you must first establish both the extent of the problem as well as the end state you seek.  Those two elements, together, are the *why* that drives this process.  Given how easy it is to create information in a digital environment and the plethora of software tools and formats you employ personally and professionally, it is quite likely that your information is a bit of a mess.  "The first step to taming any mess is to shine a light on it so you can outline its edges and depths" [@Covert2014].  This means taking a look at both **what** information you have and **where** it is located.  Once you know hte full scope of the problem you have, only then can you move towards greater findability.
 
-Creating a picture of the end state you will achieve through information organization can be personally motivating, yet in this context your users needs should be paramount.  You must figure out what your users will consider a good outcome, and "[e]very decision you make should support what you've defined as good" [@Covert2014].  Note that this  may not completely overlap with what you define as good for your work process.  However, the entire point of organizing information is to make it findable to ourselves and many others, so you will need to balance your workflow needs with the needs of your users, rather than assuming that their needs perfectly match your own.
+Before you can design a solution,
+you must first establish both the extent of the problem as well as the end state you seek.
+Those two elements together are the *why* that drives this process.
+Given how easy it is to create information in a digital environment
+and the plethora of software and formats you may employ personally and professionally,
+it is quite likely that your information is a bit of a mess.
+"The first step to taming any mess is to shine a light on it so you can outline its edges and depths" [@Covert2014].
+This means taking a look at both *what* information you have and *where* it is located.
+Once you know the full scope of the problem you have,
+you can move towards greater findability.
 
-Remember too, that the question of how to find something can actually have several different, possibly overlapping meanings!  Users may need to find your work on the web, find a specific item within a website, and/or find a particular piece of information within a specific file or webpage.  Depending on your content, you may have challenges in all three areas!  There are fine-tuning techniques appropriate for each and the remaining tips related to context and content will help you address the full scope of your findability problem.
+Creating a picture of the end state you will achieve through information organization can be personally motivating,
+yet in this context your users' needs should be paramount.
+You must figure out what *they* will consider a good outcome,
+and "[e]very decision you make should support what you've defined as good" [@Covert2014].
+This may not completely overlap with what you currently define as good for your own work,
+but the entire point of organizing information is to make it findable to others as well as ourselves,
+so you must balance your present workflow needs with the needs of your users,
+rather than assuming that their needs perfectly match your own.
+And remember: your future self is also one of your users,
+while your past self is effectively a novice,
+so anything you do for others will likely pay off for yourself eventually.
 
-#Context Rules
+Remember too that
+the question of how to find something can have several different meanings.
+Users may need to find your work on the web,
+find a specific item within a website,
+and/or find a particular piece of information within a specific file or webpage.
+Depending on your content,
+you may have challenges in all three areas.
+There are fine-tuning techniques appropriate for each;
+the remaining tips related to context and content will help you address the full scope of your findability problem.
 
-## 3. Utilize textual structure
-Your information's context is one aspect of structural communication.  Findability issues at the document, post, or article level can be addressed by maximizing your softwares' structural options for text.  Taking advantage of these elements in each software type you use functionally improves the organization and navigational support as well as retrieval support for your users [@Hedden2016].  Basically, it helps users navigate content and find what they need, which is the essence of findability.
+FIXME: a paragraph here saying, "For example, the findability problem for user X with information Y is Z,
+while the findability problem for user P with that same information is Q."
+Otherwise this is hard for me to relate to.
 
-A key component of web searching is scanning text in search of your target information.  Textual structure helps with that process [@Krug2014].  Examples of this are using heading functions and bulleted or numbered lists where appropriate, so is highlighting terms that are important.  Depending on the software program you are using, headings and table of contents can be hyperlinked, which supports both scanning and navigation.  Textual content is created and aggregated in so many forms using so many different programs that specific strategies beyond headings, lists and highlighting terms is difficult.  Generally, you want to exploit the features of the textual program---your word processing software, data agregator, or other information-processing-tool---to the greatest degree possible.
+## 3. Use Textual Structure
+
+Your information's context is one aspect of structural communication.
+Findability issues at the document, post, or article level
+can be addressed by taking advantage of the elements provided by each program you use
+to improve organization and navigational support as well as retrieval support for your users [@Hedden2016].
+
+For example,
+a key component of web searching is scanning text in search of target information.
+Textual structure helps that process [@Krug2014].
+Examples of this are using formatted headers (rather than just enlarged text) and bulleted or numbered lists,
+as well as **highlighting** terms that are important.
+Depending on the software you are using,
+headings and table of contents can be hyperlinked,
+which supports both scanning and navigation.
+
+Textual content is created and aggregated in so many forms and using so many different programs
+that specifying strategies beyond headings, lists, and highlighting is difficult.
+Generally,
+you want to exploit the features of the textual program
+(your word processing software, data aggregator, or other information-processing-tool)
+to the greatest degree possible.
+FIXME: I don't think anyone would say "*don't* use them to the greatest degree possible..."
+FIXME: Can you provide an example here of a program-specific strategy, e.g., something people could do with CSV files?
 
 ## 4. Add Metadata
-Just like people who end up with piles of photographs with nothing written on the back,  we all have digital mounds of files and content with no format or subject information in the Properties.  Unorganized and inconsistently organized professional work leads to frustration, while the benefits of having metadata are huge, for users and for you.  Metadata adds extra access points for information retrieval, which gives users more avenues to find what they need.  However, the metadata you are able to add depends on the software used to create, store, and access your information.
 
-Many file storage, word processing programs and website software actually have built-in metadata capabilities, though they may be hard to find and harder to understand how to leverage.  The worst part may be getting into the habit of adding metadata to your content after creation.    You’ll need to have done some thinking about format and subject, but if your website software has any metadata functionality (like tagging; see tip 9), you will want to take advantage of the additional discoverability.  If you ever have a choice of software, one that makes use of metadata and structural labels enhances search tremendously.  It is also useful to examine how metadata can be transferred form an old syste to a new system, if you have the luxury of multiple software options.
+Just like people who end up with piles of photographs with nothing written on the back,
+we all have digital mounds of files and content with no format or subject information in the Properties.
+[FIXME: what do you mean by "Properties"? Is that OS-specific? "Does it work on Linux?" is unfortunately a real question...]
+Metadata adds extra access points for information retrieval,
+which gives users more avenues to find what they need.
+However,
+what metadata you are able to add depends on the software used to create, store, and access your information,
+and on the file formats that information is stored in.
 
-## 5. Utilize Search **and** Browsing
-Research into information-seeking behavior shows that people use a combination of searching AND browsing when they’re trying to find information they need [@Rosenfeld2015].  As they browse a website or document or file, they put together a mental map of the content they could possibly find and make a search based on that assumption.  "In the process, they modify their information requests as they learn more about what they need and what informaiton is available from the system" [@Rosenfeld2015].  They’ll further refine their search as they see results, perhaps navigating into a result or two to further their understanding.    You’ve probably seen or done something similar with a print book, trying to determine if it’s one you want.  These two functions work together because search allows users to find information they know they need whereas browsing allows users to find information they don't know that they need [@Bates20021].
+Many file storage, word processing, and website construction programs have built-in metadata capabilities,
+though they may be hard to find and harder to understand how to leverage.
+The worst part may be getting into the habit of adding metadata to your content after creation.
+You'll need to have done some thinking about format and subject,
+but if your website software has any metadata functionality (like tagging; see tip 9),
+you will want to take advantage of the additional discoverability.
+If you ever have a choice of software,
+one that makes use of metadata and structural labels enhances search tremendously.
+It is also useful to examine how metadata can be transferred from an old system to a new one
+if you have the luxury of multiple software options
+(or have had a change forced on you).
 
-Given this behavior, it’s important to provide access to your information through both methods and to "look for ways to support moving easily from search to browse and back again" [@Rosenfeld2015]. Tags and other metadata help with searching and browsing a list of tags, a table of contents, or even a file directory tells users a lot about the content contained in the information they are looking at.  Textual signifiers and software structures also help users navigate between searching and browsing by making the information framework visible to the users.  That communication, "enbales the answers to users' questions to 'rise' to the surface" and answer questions like, "Where am I?  What's here?  Where can I go from here?" [@Rosenfeld2015].  These are essential wayfinding questions on the way to findability and interact closely with the navigational choices you make for your information.
+FIXME: example?
+
+## 5. Use Search **and** Browsing
+
+Research into information-seeking behavior shows that
+people use a combination of searching *and* browsing when they're trying to find information they need [@Rosenfeld2015].
+As they browse a website or document or file,
+they put together a mental map of the content they could possibly find and search based on that map.
+"In the process,
+they modify their information requests as they learn more about what they need
+and what information is available from the system" [@Rosenfeld2015].
+They refine their search further as they see results,
+often navigating into a result or two to further their understanding.
+You have probably seen or done something similar with a print book,
+trying to determine if it's one you want.
+These two functions work together
+because search allows users to find information they know they need,
+whereas browsing allows users to find information they don't know that they need [@Bates20021].
+
+Given this behavior,
+it's important to make information accessible both ways
+and to "look for ways to support moving easily from search to browse and back again" [@Rosenfeld2015].
+Tags and other metadata help with searching,
+while browsing a list of tags, a table of contents, or even a file directory
+tells users a lot about the content contained in the information they are looking at.
+
+Textual signifiers and software structures also help users navigate between searching and browsing
+by making the information framework visible to the users.
+[FIXME: what's a "textual signifier"?]
+That communication,
+"enables the answers to users' questions to 'rise' to the surface" and answer questions like,
+Where am I?  What's here?  Where can I go from here?" [@Rosenfeld2015].
+These are essential wayfinding questions on the way to findability
+and interact closely with the navigational choices you make for your information.
+
+FIXME: example?
 
 ## 6. Mimic Real World Directions
-Note that even in a digital environment, the language used mirrors physical directions.  Give your users a virtual map with sign posts and directions so they can figure out where they need to go.  Using the navigational metaphor completely is very helpful to ensuring that you help your users as much as possible, because "the words you use in the navigation systems and headings of [your content] help you find what you're looking *for*, but they also help you understand what you're looking *at*" [@Arango2018].  Navigation is yet another structural element that provides context to your users and communicates important information about your work and how they can find what they need.
 
-As a content creator, you might think that since your audience is educated, that they’ll have either an innate understanding of the way you’ve structured your content, or unlimited patience to persist until they get what they need.  In reality, users scan, but don’t read, click on the first close thing they see and give up really, really soon.  Making things findable means that it is your job to make sure the user gets the information they need from the stuff you have.  Breadcrumb trails and menus on websites, and headings, file paths, & table of contents on documents/files give your users a sense of where the information resides as part of the larger information ecosystem they are currently 'in' as well as which new paths they can take [@Krug2014].  Much like highway navigation signs are consistent with regards to appearance, style and type of information, you want your directions to be clear and consistent throughout your information ecosystem.  
+Even in a digital environment,
+our language mirrors that used for physical directions.
+Using the navigational metaphor completely is very helpful to ensuring that you help your users as much as possible,
+because "the words you use in the navigation systems and headings of [your content] help you find what you're looking *for*,
+but they also help you understand what you're looking *at*" [@Arango2018].
+Navigation is yet another structural element that provides context to your users
+and communicates important information about your work and how they can find what they need,
+so give your users a virtual map with sign posts and directions so they can figure out where they need to go.
 
-#Content Rules
+As a content creator,
+you might think that since your audience is educated,
+they will have either an innate understanding of how you have structured your content
+or unlimited patience to persist until they get what they need.
+In reality users scan but don't read:
+they click on the first close thing they see and give up very, very quickly.
+Menus, headings, file paths, breadcrumb trails on websites, and tables of contents
+give users a sense of where the information resides as part of the larger information ecosystem they are currently in
+as well as which new paths they can take [@Krug2014].
+Your directions should be consistent throughout your information ecosystem
+just as highway signs are with regards to appearance, style, and type of information,
 
 ## 7. Name for Finding
-File and site naming affect findability both in terms of how they interact with your search application and how human-readable they are once they are retrieved as search results or through browsing.  Naming can be a challenge because of the need to balance a human-readable name that conveys the 'aboutness' of the item as well as a pattern or schema that is also machine-readable.  For file directories with many files, leveraging machine-readable components like sorting with a particular date format could automatically place files in an order that enhances findability.  The utility of one choice over another hearkens back to what you defined as *good* for your users.
 
-There are many ways to develop a naming schema, largely related to the nature of the information you create.  At the most basic level, "you should use consistent names for the same reason that you use good file organization: so you can easily find and use data later.  Additionally, good naming helps you avoid duplicate information"[@Briney2015].  Condistency is key: choosing your preferred case, preferred date format (YYYMMDD or YYYY-MM-DD will both sort chronologically), and any project or source codes are all areas where standardization will benefit anyone searching for information.
+File and site naming affect findability both in terms of how they interact with your search application
+and how human-readable they are once they are retrieved as search results or through browsing.
+Naming can be a challenge because of the need to balance a human-readable name that conveys the 'aboutness' of the item
+as well as a pattern or schema that is also machine-readable.
+For file directories with many files,
+leveraging machine-readable components like sorting with a particular date format
+can automatically place files in an order that enhances findability.
+The utility of one choice over another hearkens back to what you defined as good for your users.
 
-If you have things to name that are not files, perhaps projects or webpages or even document headings, remember that while opaque or general names might sound good, they can be nearly impossible to find later if they do not reference the actual subject they contain.  Taking inspiration from file naming best practices, ensure that your names have enough information that they immediately and uniquely identify what they contain or reference.  When naming, you will want to imagine that someone will enter the name into a search box at some point in the future.  Will it lead them back to this particular item or content?  It should.   Also, think about nicknames or shortened versions of your names and make sure they are present in text or tags so that the content can be discovered by a search engine and a user.
+There are many ways to develop a naming schema,
+largely related to the nature of the information you create.
+At the most basic level,
+"you should use consistent names for the same reason that you use good file organization:
+so you can easily find and use data later.
+Additionally, good naming helps you avoid duplicate information"[@Briney2015].
+Consistency is key:
+choosing your preferred case,
+preferred date format (YYYMMDD or YYYY-MM-DD will both sort chronologically),
+and any project or source codes [FIXME: I don't know what "project or source codes" are?]
+are all areas where standardization will benefit anyone searching for information.
+
+If you have things to name that are not files,
+such as projects, web pages, or document headings,
+remember that the more generic the name the harder it is to understand afterward,
+they can be nearly impossible to find things later
+if their names do not reference their actual contents.
+Try to ensure that your names immediately and uniquely identify what they contain or reference.
+When naming,
+you will want to imagine that someone will enter the name into a search box at some point in the future.
+Will it lead them back to this particular item or content?
+It should.
+Also,
+think about nicknames or shortened versions of your names
+and make sure they are present in text or tags so that the content can be discovered by a search engine and a user.
+
+FIXME: example of bad turned into good?
 
 ## 8. Use Tags
-Software metadata choices are part of the structural context of your information, but what you choose to put in metadata fields related to content subject and formats depends on your source material.  Additionally, digital information can handle multiple tags, which aides searching.  Be consistent in your depth of topical term assignment and selection of terms for subject and format.  Choosing which terms you will use may not matter much for your discipline beyond a need for consistency.  However, if your discipline has a established thesaurus, it can be great source for standardized subject terms.  Thesauri have a built in subject hierarchy, which can be helpful as you create a navigational structure.  Examples of thesauri include:
-*Astronomy Thesaurus
-*Getty Art & Architetcure Thesaurus
-*Education Resources Information Center (ERIC) Thesaurus
-*NASA Thesaurus
-*UNESCO Thesaurus
-*GBA Thesaurs of Geosciences
-*Medical Subject Headings (MeSH)
-[@ASI2020]
 
-These types of term lists are controlled vocabularies.  They have a defined list of ‘official’ terms that is created & maintained by an ‘expert’ of some sort.  There may or may not be relationships built between terms: equivalencies (CA = California), broader/narrower terms, and/or replacement (weed USE marijuana).  One benefit of using established subject terms is that they that will match article databases and library catalogs you and your users might already be familiar with.
+FIXME: worth pointing out that tagging allows us to "file" things in multiple locations without creating duplicate copies,
+so that we can essentially overlay several mental models of the information for different users?
 
-Alternatively, you might create your own list of subject keywords, which are called folksonomies.  Folksonomies are like what you see with tags on Flickr---the content creator assigns terms as they see fit.  Additionally, users can tag with whatever terms they like and the list of possible terms is both uncontrolled (no one is watching for synonyms or misspellings) and crowd-sourced (created by non-experts).    The good news is that there is probably a place you can find tags in use that are a similar topic or content to yours that will inspire the tag structure and/or terms you’ll want to use.  If you create your own list of content terms, beware of plural/singular discrepancies in your terms and be sure to review that list on a regular basis for errors and misspellings.  
+Software metadata choices are part of the structural context of your information,
+but what you choose to put in metadata fields related to content subject and formats depends on your source material.
+Additionally, digital information can handle multiple tags, which aides searching.
+Be consistent in your depth of topical term assignment and selection of terms for subject and format.
+Choosing which terms you use may not matter much for your discipline beyond a need for consistency.
+[FIXME: I think the preceding sentence is redundant.]
+However, if your discipline has a established thesaurus, it can be great source for standardized subject terms.
+Thesauri have built-in subject hierarchies that can help you create navigational structure.
+Examples include [@ASI2020]:
 
-## 9. Understand the Difference Between Form & Substance
-When you create metadata tags, you will often need to address the distinction between format and subject.  This adds another layer of conceptual analysis to your tagging process.  It is important to understand that there are terms to describe what your content IS (format), and also terms to describe what it is ABOUT (subject) [@Joudrey2015].  About-ness is the most common content analysis, but you will likely have issues of is-ness that affect your users and will want to add another layer of metadata to address what the information **is** in addition to what it is **about**.  
+-   Astronomy Thesaurus
+-   Getty Art & Architecture Thesaurus
+-   Education Resources Information Center (ERIC) Thesaurus
+-   NASA Thesaurus
+-   UNESCO Thesaurus
+-   GBA Thesaurus of Geosciences
+-   Medical Subject Headings (MeSH)
 
-Going back to your users, what subjects are important to them?  And, do those topics carry over or change between differences in format?  This is basically a question of combined terms—are your format terms uniquely matched to topical terms (blog posts are always about news), or do you have multiple topics in each format (blog posts and tutorials on the same subject)?  When you think of file formats, sometimes the software takes care of that format analysis for you, if data is stored in CSV files or a presentation is in Keynote or PowerPoint.  However, dissemination sometimes removes a file from its orginal format (think printing slides to a PDF), in which case careful naming and metadata conventions would recommend putting the format into the name and/or file metadata.  Once you are aware of format and subject analysis, you will likely see more opportunities to distinguish information sources for your users.
+These types of term lists are controlled vocabularies.
+They have a defined list of "official" terms that is created and maintained by an expert of some sort.
+There may or may not be relationships built between terms,
+such as equivalencies (CA = California),
+broader/narrower terms (FIXME: example),
+and/or replacement (weed USE marijuana).
+One benefit of using established subject terms is that
+they that will match article databases and library catalogs you and your users might already be familiar with.
 
-## 10. Do Not Abbreviate
-Spelling out acronyms and abbreviations breaks down the exclusivity of language used by a select group and it makes people feel welcome when they find your information.  As an expert in your field, you "can no longer imagine what it's like to *not* see the world that way" [@Wilson2020], and will have to work to ensure that the information you share with your users is accessible to them.  Especially with acronyms, remember that they are often repurposed by different professions or disciplines and what seems obvious to you is probably not obvious to a number of other people.  Given that your discpline likely has many common abbreviations, you can write out all abbreviations and acronyms in their full form, write them out the first time they appear, or create or point to a term dictionary.  
+Alternatively,
+you might create your own taxonomy of subject keywords, which is called a *folksonomy*.
+Folksonomies are what you see with tags on Flickr: [FIXME: is Flickr still a thing? Maybe reference Stack Overflow?]
+the content creators assign terms as they see fit.
+Additionally,
+users can tag with whatever terms they like
+and the list of possible terms is both uncontrolled (no one is watching for synonyms or misspellings)
+and crowd-sourced (created by non-experts).
+The good news is that there is probably a place you can find tags in use
+that are a similar topic or content to yours that will inspire the tag structure and/or terms you'll want to use.
+If you create your own list of content terms,
+beware of plural/singular discrepancies in your terms
+and be sure to review that list on a regular basis for errors and misspellings.
 
+## 9. Understand the Difference Between Form and Substance
 
-Changing work habits is hard, and you must decide whether to start new work with a clean slate of new information rules or if you must go back and alter---perhaps rename---any work product [@Briney2015].  Remember that while "perfection isn't possible, progress is" [@Covert2014].  Creating and structuring 'good' information for your users is your goal, but these rules and the "ways you enforce your way of doing things changes how users think about the place[s] you made and perhaps ultimately, how they think about you" [@Covert2014].  Circling back to the network of users you are situated among, making your stuff findable is a truly impactful way to disseminate your work to them that will positively change your network and your career.
+When you create metadata tags, [FIXME: are these the same as folksonomy tags above?]
+you need to address the distinction between format and subject,
+which adds another layer of conceptual analysis to your tagging process.
+Format describes what your content *is*,
+while subject describes what it is *about* [@Joudrey2015].
+About-ness is the most common content analysis,
+but you will likely have issues of is-ness that affect your users
+and will want to add another layer of metadata to address it.
+FIXME: I need an example here to distinguish the two.
+
+Going back to your users,
+what subjects are important to them?
+And, do those topics carry over or change between differences in format?
+This is basically a question of combined terms:
+are your format terms uniquely matched to topical terms (blog posts are always about news)
+or do you have multiple topics in each format (blog posts and tutorials on the same subject)?
+When you think of file formats,
+sometimes the software takes care of that format analysis for you,
+for example if data is stored in CSV files or a presentation is in Keynote or PowerPoint.
+[FIXME: does this mean "the software chooses the format which in turn signals what the content is"?]
+However,
+dissemination sometimes changes a file's format (e.g., printing slides to a PDF),
+in which case careful naming and metadata conventions would recommend putting the format into the name and/or file metadata.
+Once you are aware of format and subject analysis,
+you will likely see more opportunities to distinguish information sources for your users.
+
+FIXME: example?
+
+## 10. Do Not Abbrvt
+
+As an expert in your field,
+you "can no longer imagine what it's like to *not* see the world that way" [@Wilson2020],
+and have to work to ensure that the information you share with your users is accessible to them.
+Spelling out acronyms and abbreviations (or hyperlinking to definitions)
+breaks down the exclusivity of language used by a select group
+and makes newcomers feel welcome.
+
+Remember that acronyms are often repurposed by different professions or disciplines:
+what seems obvious to you is probably not obvious to a number of other people.
+Given that your discipline likely has many common abbreviations,
+you can write out all abbreviations and acronyms in their full form,
+write them out the first time they appear,
+or create or point to a term dictionary.
+
+## Conclusion
+
+Changing work habits is hard,
+and you must decide whether to start new work with a clean slate of new information rules
+or if you must go back and alter---perhaps rename---existing work products [@Briney2015].
+Remember that while "perfection isn't possible, progress is" [@Covert2014].
+Creating and structuring good information for your users is your goal,
+but these rules and the
+"ways you enforce your way of doing things changes how users think about the place[s] you made
+and perhaps ultimately, how they think about you" [@Covert2014].
+Circling back to the network of users you are situated among,
+making your stuff findable is a truly impactful way to disseminate your work to them
+that will positively change your network and your career.
 
 # References {#references .unnumbered}
