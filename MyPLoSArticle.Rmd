@@ -9,7 +9,7 @@ address:
   - code: RStudio, Inc.
     address: 250 Northern Ave., Boston, MA 02210
 abstract: |
-  Put something here.
+  Library science principles offer a framework and methodology for working through the maze of information generated in professional life.  Information ecosystems are composed of users, context, and content, and all 3 areas need to be addressed to make information findable.  Scientists should define their users and needs and then leverage the structural elements of the software they use to create, store, and access information before they can refine their content and how they present it via naming and subject metadata.  Ultimately, improving findability promotes the scientist's work through contribution, iteration, and dissemination of information and ideas.
 author_summary: |
   Sarah Lin is the Information Architect & Digital Librarian at RStudio.
 bibliography: mybibfile.bib
