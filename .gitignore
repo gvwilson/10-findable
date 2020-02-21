@@ -1,4 +1,5 @@
 *~
+.Rhistory
 *.aux
 *.bak
 *.bbl
@@ -6,3 +7,5 @@
 *.dvi
 *.log
 *.out
+MyPLoSArticle.pdf
+MyPLoSArticle.tex
