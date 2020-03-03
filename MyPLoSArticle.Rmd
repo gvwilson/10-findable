@@ -143,10 +143,11 @@ While you want to exploit the features of the textual program
 to the greatest degree possible, 
 you must first investigate each software for ways to do so and think about each program as a way to notate information in addition to creating, manipulating, or storing it.
 Examples include:
-*GitHub offers tags that can be added to committ messages and are searchable.
-*Electronic lab notebooks of any kind can make use of an XML schema, like Darwin Core, EML, or FITS (@Briney2015).
-*Using specific Google Docs heading levels creates a table of contents in real time, visible when the file is open.
-*Since CSV and spreadsheet files contain data, use a README file or create a data dictionary to provide information about the data and store it with raw data files.
+
+*  GitHub offers tags that can be added to committ messages and are searchable.
+*  Electronic lab notebooks of any kind can make use of an XML schema, like Darwin Core, EML, or FITS (@Briney2015).
+*  Using specific Google Docs heading levels creates a table of contents in real time, visible when the file is open.
+*  Since CSV and spreadsheet files contain data, use a README file or create a data dictionary to provide information about the data and store it with raw data files.
 
 ## 4. Add Metadata
 
@@ -194,7 +195,7 @@ You have probably seen or done something similar with a print book,
 trying to determine if it's one you want by looking at the table of contents and the back cover.
 These two functions work together
 because search allows users to find information they know they need,
-whereas browsing allows users to find information they don't know that they need [@Bates20021].
+whereas browsing allows users to find information they don't know that they need [@Bates2002].
 
 Given this behavior,
 it's important to make information accessible both ways
@@ -268,7 +269,7 @@ largely related to the nature of the information you create.
 At the most basic level,
 "you should use consistent names for the same reason that you use good file organization:
 so you can easily find and use data later.
-Additionally, good naming helps you avoid duplicate information"[@Briney2015].
+Additionally, good naming helps you avoid duplicate information" [@Briney2015].
 Researchers with multiple research projects 
 or significant complexity in their data sources 
 might want to establish a unified system of abbreviations for those projects or sources (these would be best summarized in a data dictionary or README file).
