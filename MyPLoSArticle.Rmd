@@ -9,7 +9,7 @@ address:
   - code: RStudio, Inc.
     address: 250 Northern Ave., Boston, MA 02210
 abstract: |
-  Library science principles offer a framework and methodology for working through the maze of information generated in professional life.  Information ecosystems are composed of users, context, and content, and all 3 areas need to be addressed to make information findable.  Scientists should define their users and needs and then leverage the structural elements of the software they use to create, store, and access information before they can refine their content and how they present it via naming and subject metadata.  Ultimately, improving findability promotes the scientist's work through contribution, iteration, and dissemination of information and ideas.
+  Library science principles offer a framework and methodology for working through the maze of information generated in professional life.  Information ecosystems are composed of users, context, and content, and all 3 areas need to be addressed to make information findable.  Scientists should define their users and needs and then leverage the structural elements of the software they use to create, store, and access information.  Only then can refine their content and how they present it via naming and subject metadata.  Ultimately, improving findability promotes the scientist's work through contribution, iteration, and dissemination of information and ideas.
 author_summary: |
   Sarah Lin is the Information Architect & Digital Librarian at RStudio, PBC.
 bibliography: mybibfile.bib
@@ -38,11 +38,11 @@ They are based on the fact that information ecosystems have three parts: users, 
 Solving the challenges of information retrieval at the point of need therefore requires addressing
 the people who use your information,
 the context within which it is created,
-and its actual content.
+and the actual content of the information.
 
 ## 1. Know Your Users
 
-The first step to making information findable is to establish who will be doing the finding.
+The first step to making information findable is to establish who will be finding information.
 In a professional context,
 your users are people who have a "viable and legitimate interest in the work you're doing" [@Covert2014].
 Through contributions,
@@ -61,7 +61,7 @@ Novice users should be able to understand and navigate your content just as well
 This much broader range of users means that you would expect a wide spectrum of domain knowledge
 as well as facility navigating your discipline's routine practices.
 
-The information you wish to convey and they way it is currently organized probably makes perfect sense to you.
+The information you wish to convey and the way it is currently organized probably makes perfect sense to you.
 Its meaning for your users,
 however,
 is determined by *their* experience.
@@ -120,6 +120,8 @@ but the librarian wouldn't get a link to the full text (or a PDF download)
 and the university administrator would not find each publication's impact factor.  
 The student needs are not considered at all.
 
+Much of the content you create through your work has multiple audiences, so figuring out the extent of _who_ needs to find _what_ is essential before moving forward.
+
 ## 3. Use Textual Structure
 
 Your information's context is one aspect of structural communication.
@@ -161,7 +163,7 @@ and on the file formats that information is stored in.
 
 Many file storage, word processing, and website construction programs have built-in metadata capabilities,
 though they may be hard to find and harder to understand how to leverage.
-The worst part may be getting into the habit of adding metadata to your content after creation.
+The most difficult part may be getting into the habit of adding metadata to your content after creation.
 You'll need to have done some thinking about format and subject,
 but if your website software has any metadata functionality (like tagging; see tip 9),
 you will want to take advantage of the additional discoverability.
@@ -209,7 +211,7 @@ by making the information framework visible to the users.
 That communication,
 "enables the answers to users' questions to 'rise' to the surface" and answer questions like,
 Where am I?  What's here?  Where can I go from here?" [@Rosenfeld2015].
-These are essential wayfinding questions on the way to findability
+These are essential wayfinding questions on the path to findability
 and interact closely with the navigational choices you make for your information.
 
 A system of headings marked in a textual file is a great example of intradocument wayfinding.  
@@ -233,7 +235,7 @@ search is not a stand-alone solution.
 
 Even in a digital environment,
 our language mirrors that used for physical directions.  We 'visit' or 'go to' a website without actually changing our physical location.
-Using the navigational metaphor completely is very helpful to ensuring that you help your users as much as possible,
+Using the navigational metaphor completely is very helpful to ensuring that you assist your users as much as possible,
 because "the words you use in the navigation systems and headings of [your content] help you find what you're looking *for*,
 but they also help you understand what you're looking *at*" [@Arango2018].
 Navigation is yet another structural element that provides context to your users
@@ -313,7 +315,7 @@ and selection of terms for subject and format (the number of terms you use to de
 Exactly which terms you choose may not matter much for your discipline, 
 beyond a need for consistency, 
 but in some disciplines the particular terms chosen matters a great deal.
-However, if your discipline has a established thesaurus, it can be great source for standardized subject terms.
+However, if your discipline has an established thesaurus, it can be great source for standardized subject terms.
 Thesauri have built-in subject hierarchies that can help you create navigational structure.
 Examples include [@ASI2020]:
 
