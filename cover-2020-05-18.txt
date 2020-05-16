@@ -1,0 +1,46 @@
+To whom it may concern,
+
+Thank you for your feedback on our paper "Ten Quick Tips for Making Things
+Findable".  We have incorporated major points of feedback, and hope that this
+revision addresses the issues that the reviewers raised. The file
+"10-findable.pdf" is the updated version, while "second-submission-changes.pdf"
+highlights alterations.
+
+Thank you for your consideration,
+Sarah Lin & Greg Wilson
+
+Response to reviewers:
+
+-  We have not included a bullet list of tips at the start of the paper since
+   this does not seem to be done in other papers of this kind. We would be
+   happy to do so if the editor prefers.
+
+-  We have clarified in the introduction and elsewhere who the tips are for.
+
+-  We have been more explicit that the software tools or platform used are part
+   of the whole equation.
+
+-  References to sources on general web usability have been added; we have also
+   added a comment to clarify that our focus on findability is narrower.
+
+-  We have clarified tip 9 as requested by the first reviewer.
+
+-  The second reviewer asked for "some kind of admonition or advice for telling
+   me how to decide on where to draw the line in choosing what audience I will
+   serve". We believe that this is so situation-specific that any general rule
+   is too anodyne to be useful; as an alternative, we have reinforced our advice
+   to "a handful of users to ask for findability feedback".
+
+-  We have tried to make Tip 2 more concrete.
+
+-  Reviewer #2 wrote, "Since this is being published in PLOS Computational
+   Biology, I have at least some expectation that this paper would be organized
+   in service of biologist's specific circumstances." We have tried to take a
+   wider view because we believe that (a) a great deal has already been written
+   about the specifics of annotating genome sequences and other domain-specific
+   material, and that (b) partly as a result, researchers have not paid nearly
+   enough attention to "the other 90%" of the information the rely on.
+
+-  Reviewer #2 also wrote, "...while I don't think most biologists will present
+   data in the form of their own website and database..." Our experience has
+   been that many do, but we do not know of any data on proportions.

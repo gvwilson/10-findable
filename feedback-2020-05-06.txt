@@ -1,0 +1,153 @@
+From: "PLOS Computational Biology" <em@editorialmanager.com>
+Subject: Decision from PLOS Computational Biology (PCOMPBIOL-D-20-00532)
+Date: May 6, 2020 at 11:32:00 AM EDT
+To: "Greg Wilson" <gvwilson@third-bit.com>
+
+Dear Greg,
+
+Thank you very much for submitting your manuscript "Ten Quick Tips for Making Things Findable" for consideration at PLOS Computational Biology.
+
+As with all papers reviewed by the journal, your manuscript was reviewed by members of the editorial board and by several independent reviewers. In light of the reviews (below this email), we would like to invite the resubmission of a significantly-revised version that takes into account the reviewers' comments.
+
+The important change I would like to see what reviewer #2 presented was that putting some sort of biological angle would be very important. Those examples are there, and should be used/highlighted.
+
+We cannot make any decision about publication until we have seen the revised manuscript and your response to the reviewers' comments. Your revised manuscript is also likely to be sent to reviewers for further evaluation.
+
+When you are ready to resubmit, please upload the following:
+
+[1] A letter containing a detailed list of your responses to the review comments and a description of the changes you have made in the manuscript. Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.
+
+[2] Two versions of the revised manuscript: one with either highlights or tracked changes denoting where the text has been changed; the other a clean version (uploaded as the manuscript file).
+
+Important additional instructions are given below your reviewer comments.
+
+Please prepare and submit your revised manuscript within 60 days. If you anticipate any delay, please let us know the expected resubmission date by replying to this email. Please note that revised manuscripts received after the 60-day due date may require evaluation and peer review similar to newly submitted manuscripts.
+
+Thank you again for your submission. We hope that our editorial process has been constructive so far, and we welcome your feedback at any time. Please don't hesitate to contact us if you have any questions or comments.
+
+Sincerely,
+
+@bffo
+
+BF Francis Ouellette
+Education Editor
+PLOS Computational Biology
+
+***********************
+
+Reviewer #1: As the name suggests "Ten quick tips make things findable" provides
+guidance for researchers on how to make their materials findable. I recommend
+this manuscript for publishing, with some changes to make the message clearer.
+
+1. It would be useful to include a bullet list of recommendations in the
+beginning of the paper.
+
+2. It would be good to make it clear in the introduction and/or the abstract
+where and for whom to make things findable, if the tips are for researchers to
+create a website either for personal, a teaching subject or a research
+community. Initially, I though it was for search engine optimisation, then I
+think it is more for developing a website. I can be wrong here (for example, the
+tip "add metadata" reads like how to navigate personal information space).
+
+3. I would argue that the ecosystem also include the system/platform that makes
+things findable. When one designs or adopts such a system, one should consider
+other three elements users, content and context in this ecosystem not just the
+system. It would be good to point out which tips are for users, contents and
+context before elaborating on each tip, although there are interactions between
+the three elements.
+
+4. Apart from library science, there are a lot lessons can be drawn from web
+usability, forums such as Nielsen Norman Group (https://www.nngroup.com/)
+provide a rich information source for making things findable. Perhaps authors
+should include sources like this in the reference list?
+
+5. Having said the dot point 4, I would suggest to add one more tip that when
+designing a website/platform, ask a few (3 to 4) people if they can find
+information from your platform.
+
+6. For the tip 9, make it clear in the heading which format the tip refers to :
+file format, content format, or some other formats. The file format is the first
+thing into my mind when I read the heading. Then I am a little confused, as in
+my view, the blog post is not a file format, but a way to disseminate a piece
+information through a blog website, the information can be a news, an opinion or
+a discussion on a research paper, or a tutorial, etc.. I doubt one can tell what
+a blog post content is (e.g. a news or a tutorial) by just knowing it is a blog
+post. Maybe I misunderstand something here.
+
+Reviewer #2: PLOS Computational Biology
+Ten Quick Tips for Making Things Findable
+
+First impression (concluding remarks at the end): Making "things" findable seems
+very general. What "things" are we talking about? Software, data, notes,
+something else? This is very general so curious to see if that generality makes
+things hard to follow. In the first few sentences of the first tip I am lacking
+some context (i.e. a story that could weave everything together).
+
+Tip 1 was entitled "Design for a wide range of user" but the first sentence (and
+call to action) was "determine who will be doing the finding". I agree with both
+sentiments. This tip had a lovely illustration, but it did not give me a way of
+designing for a wide range of users. Perhaps the tip should have ended with some
+kind of admonition or advice for telling me how to decide on where to draw the
+line in choosing what audience I will serve?
+
+In Tip 2 I feel I'm not getting your point as strongly as I should. I agree with
+the advice to determine what constitutes "done." The examples suggest that
+things are done when they satisfy the needs of my librarian audience, tenure
+audience, etc. If those audiences are going to be an underlying theme, I'd
+suggest combining tip 1 and 2. As referred to in this tip, the "things" in the
+title of this paper could be data or software. Can/should data and software be
+handled in the same way? Also, while examples have to be chosen, I personally am
+finding they don't apply to me. At least some PIs care about tenure. If they
+teach, they care about students. Unfortunately, few work directly with
+librarians. At least some biologists like myself don't have any of these
+responsibilities/concerns. Many of the data producers this paper might be
+targeting will not have these audiences (with the exception of the catch-all
+colleagues). Perhaps vary these examples a bit? Or, if those are the examples
+you want to focus on perhaps all the tips should be organized to use them? I do
+like that this tip has some strategies on software tools that would help to
+organize things. When I think of a 10 rules/tips paper, this is the kind of
+thing I am looking for.
+
+I like tip 3 except for this sentence "finding out how your domain's favorites
+can annotate information as well as creating, manipulating, or storing it."
+Since this is being published in PLOS Computational Biology, I have at least
+some expectation that this paper would be organized in service of biologist's
+specific circumstances. From the titles/positions of the authors I can't infer a
+biology background. If that is so, perhaps a biologist co-author and their
+experience would help achieve more specificity here?
+
+Tip 4 on metadata is a requirement that all of us need to adopt. However, I am
+concerned that this tip is too generic for a PLOS CompBio article. There are
+lots of metadata standards and lots of work that has been done in the life
+sciences (see for example https://fairsharing.org/). I think it would be unfair
+for these existing bodies of work to be unaddressed. The way this material and
+much of the content presented so far might be good for organizing papers and
+other articles, but not necessarily data types and software particular to
+computational biology.
+
+Tip 5, while I don't think most biologists will present data in the form of
+their own website and database, this may be good for those of them that do. This
+also applies (for me) to tip 6.
+
+Tip 7 is generic in a good way. I think this is something that applies to nearly
+everyone and every dataset.
+
+Tip 8, this advice could be good for some types of information
+(e.g. papers/articles) but not most biological datasets. There are some
+domain-specific ways tags are used, but it is very domain specific and depends
+on the software and/or data storage system.
+
+Tip 9 and 10 - see my feedback for tip 7.
+
+Final remarks: This is a very nice paper, however at this point it is not what I
+expect to read in PLOS CompBio. As a biologist, I would struggle to find ways to
+apply this to research software or datasets. I might be able to find ways to
+apply some of it if I were building a website and organizing papers (but many
+scientists don't do this or maintain a minimal site + Google scholar). I think
+this paper needs to be narrowed to some very specific scenarios you see these
+tips applying to. If I were reading this in PLOS CompBio I would also expect
+those scenarios to help me as a biologist, and to refer to the work of the data
+sharing community that has done a lot of work to develop FAIR principles,
+biological ontologies, software sharing standards, etc. As I said, there is a
+lot of good here but in (only) my opinion significant revision may be needed to
+make it a better fit. Thanks for the opportunity to review your work.
