@@ -51,7 +51,8 @@ multiple versions, and need to be shared with varied audiences for both research
 and teaching.
 
 In the last 4 years, growing adoption of FAIR principles \cite{Wilkinson2016} has helped researchers manage the data and other digital objects associated with their professional work.
-The F in FAIR stands for findability, and as a guiding principle for managing data it aligns completely with the following 10 tips.
+The FAIR principles encourage data to be: Findable, Accessible, Interoperable, and Reproducible.
+Indeed, research reproducibility hinges on the other 3 principles, which align completely with the following 10 tips.
 This paper is concerned with findability both including research data and extending beyond it to encompass all types of work product produced during a researcher's career, 
 inside or outside of academia.
 
@@ -244,7 +245,7 @@ inconsistencies to creep in. For example:
   are not automatically added to the metadata in the PDF being submitted.
 
 \item
-  When a citation is copied from an article database to a bibliography manager,
+  When a citation is copied from a database or repository to a bibliography manager,
   the software may not copy over the structural information implied by the
   article's location in the database.
 
@@ -257,6 +258,9 @@ generators allow you to type tags into an article's header without having to
 define them first. This can lead to a proliferation of synonymous (or
 misspelled) tags, but some occasional cleanup is better than tackling a mountain
 of untagged information.
+Repositories that force metadata creation upon submission greatly assist efforts to make work product findable, 
+and researchers would be well served to replicate those metadata elements within their own file storage schemas.
+Indeed, creating an internal taxonomy (list of terms) or ontology (list of relationships) at the beginning of a project can make assigning metadata much easier.
 
 You should also examine how metadata can be transferred from an old system to a
 new one if you have the luxury of switching software (or have had a change
@@ -264,6 +268,7 @@ forced on you). Some form of XML is usually the best option when doing this: it
 is likely to be with us for many years to come, and the same pedantry that makes
 it tedious for human beings to type and read ensures that programs can read it
 without having to guess what its creators actually intended.
+FAIR principles help ease the burden of software and storage migration, by encouraging researchers to plan for interoperability in software and data storage from the beginning of their projects, concerns about data migration are obviated.
 
 \rulemajor{5. Use search \emph{and} browsing}
 
@@ -278,6 +283,8 @@ looking at the table of contents and the back cover. These two functions work
 together because search allows users to find information they know they need,
 whereas browsing allows users to find information they don't know that they need
 \cite{Bates2002}.
+Designing for both browsing and searching is especially pertinent in a search algorithm environment that often dynamically creates results unique to each individual search executed, 
+influenced by the user's previous interaction with a particular website and/or internet browser.
 
 You should therefore make information accessible both ways and make it easy to
 move from searching to browsing and back again. Tags and other metadata help
@@ -308,7 +315,8 @@ build the mental map mentioned in the previous tip. File paths and breadcrumb
 trails on websites give users a sense of where the information resides and
 suggest new paths they can take \cite{Krug2014}. For example, the URLs of a
 website might all include the name of a section of the site, such as
-\texttt{/papers/} or \texttt{/blog/}.
+\texttt{/papers/} or \texttt{/blog/}.  
+DOIs and ORCID iDs function as the best kind of internet 'signage,' ensuring users never encounter a "webpage not found" error message in the course of retrieving a particular publication.
 
 While much has been written about web usability in general
 \cite{Covert2014,NNG2020}, library science focuses on information-seeking
@@ -350,6 +358,7 @@ seem like a waste of precious time, but since the research cycle doesn't end
 with publication \cite{Briney2015}, there is a very high likelihood that someone
 will need to reuse your data and will have to try to figure out what files
 corresponded to what part of your research.
+Similarly to establishing metadata norms before beginning a project, creating a naming convention that is adopted by any collaborators before research begins will preserve findability into the future.
 
 If you have things to name that are not files, such as projects, web pages, or
 document headings, remember that the more generic a term is, the harder it is to
@@ -386,7 +395,10 @@ should:
 
 \item
   tag all items with a species, which might be ``unknown'' or ``NA'' (not
-  available).
+  available), or
+  
+\item
+  tag all items at both general and increasingly specific categories if that is the standard for your discipline \cite{FAIR2020}.
 
 \end{itemize}
 
@@ -430,9 +442,9 @@ what it is \emph{about} \cite{Joudrey2015}. About-ness is the most common
 content analysis, but is-ness issues will probably affect people's ability to
 use your information, so you may want to add metadata to make it explicit.
 
-A simple example of this is a blog post on a website. The post is \emph{about} a
-subject, but it \emph{is} a blog post rather your biographical details, your
-bibliography, or thumbnails of the images you have used.  Going back to your
+A simple example of this is a blog post on a researcher's professional website. The post is \emph{about} a
+subject, like a book review, but it \emph{is} a blog post rather biographical details,
+bibliography, or a list of currently taught classes.  Going back to your
 users, what subjects are important to them? And do those topics carry over or
 change between differences in format? For a librarian, this is basically a
 question of combined terms: are your format terms uniquely matched to topics
@@ -473,7 +485,9 @@ or point to a term dictionary.
 Changing work habits is hard, so remember that while perfection isn't possible,
 progress is. Start by deciding whether to begin your next project with a new set
 of information organizing principles or to go back and alter existing artifacts
-\cite{Briney2015}. Whichever you choose, the ``ways you enforce your way of
+\cite{Briney2015}.
+You might also consider this process as you would a research experiment, and incorporate one small change at a time.
+Whichever you choose, the ``ways you enforce your way of
 doing things changes how users think about the place[s] you made and perhaps
 ultimately, how they think about you'' \cite{Covert2014}.
 
