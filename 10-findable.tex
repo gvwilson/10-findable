@@ -127,70 +127,72 @@ information. With the plethora of software and formats you may employ, you almos
 certainly have information in lots of different formats, file types and locations.
 The second step in making things findable is to think ahead about the things you
 would want to be found at the completion of the project before cataloging what you
-have. That way you can have time to anticipate what can go where, and adapt if
-necessary before materials are published. 
+have. By doing this, you identify what research items can go where, and update them if
+necessary before materials are published in a peer-reviewed journal or cited in a 
+grant application. 
 
-This is particularly relevant when you know your data will be archived. Different disciplines operate with their own distinct set of
-accepted standards of how things should be archived. One example of this can be
-found in the field of structural biology. Nearly all protein or molecular
-structures are submitted to the Protein Data Bank (PDB) which creates citable
-identifers for each submission and follows a set of standard file types to enable 
-reuse. This makes protein structures easily searchable with their identifier 
-and easily reusable since files are uploaded in a standardized and widely-used 
-format\cite{Wilkinson2016}. Following the standards set by experts in the field 
-as you design your information ecosystem will reduce the barrier to finding relevant materials associated with your work.
+Consider this typical research workflow (Figure 1). A researcher uses a particular set of 
+data sources (Fig 1A). These sources can take the form of model organisms or molecular systems which 
+can be used to learn about living organisms or disease. Data sources might also include publicly 
+available next-generation sequencing data or locally curated collections of microscopy images.
+In the lab, data sources are treated with specialized protocols and tools (Fig 1B) which help visualize, 
+identify or extrapolate new observations about biological phenomena (Fig 1C). After repetition, 
+trends seen among noisy biological observations can be further analyzed, visualized, and 
+statistically evaluated with software or code (Fig 1D). Finally, the researcher builds context
+for the work by writing a manuscript and citing relevant literature (Fig 1E). Manuscripts are revised
+by colleagues in the field through peer review (Fig 1F) and published in a peer reviewed journal.
 
-Figuring out what ``done'' will look like can be personally motivating, but once
-again, you must be mindful of what your users will consider a useful outcome, which
-may not align with what you would do if you were the information's only consumer.
-Remember that your future self is also one of your users: everyone is prone to 
-forgetfulness, so anything you do for others will likely pay off for yourself
-eventually\cite{Briney2015}.
+Recent advancements in best-practices for making research products more 'FAIR' has 
+led to the creation of a vast array of discipline specific, and general repositories, for 
+researchers to deposit products created from each of the steps in the research workflow.
+See PLoS's curated list for data repositories (https://journals.plos.org/plosone/s/recommended-repositories).
+Many repositories now create Digital Object Identifers (DOIs), or other permanent identifiers
+for their submissions, making them citable and easily linked to contributing researchers via Open 
+Researcher and Contributor IDs (ORCIDs) (Fig 1G). Many repositories follow the standards
+set by experts in the field, only reporting information that is recommended for reproducibilty
+while employing necessary practices to protect the privacy of sensitive information. 
 
-Remember too that the strategies users employ to find something can look different 
-in different contexts. Users may need to find your (published or unpublished)
-work on the web, find a specific item within a website, and/or find a particular 
-piece of information within a specific file or item within a webpage. Depending on 
-your content, you may have challenges in all three areas; the remaining tips on 
-context and content will help you address these issues.
-
-Elaborating on the example from the previous tip about the faculty member's website, 
-we can catch a glimpse of the variety of user needs:
+Let's think about our faculty member from the previous tip. She wants her lab's data to be stored
+so she can cite it in multiple publications, both her original reserch and course materials. Her 
+collaborators also need access to some, but not all of her lab's protocols. She might use the
+following repositories which she found through PLoS's database of repositories, or recommended tools.
 
 \begin{itemize}
 
 \item
-  Tenure committee members will want human-readable descriptions of related sets
-  of papers along with links to presentations or posters that discuss them.
+  She stores her data in a Dryad data repository so she can cite it in
+  multiple publications with a DOI. She can update the data archive, as new
+  pertinant data is collected and a new version of the data set is collected. (ref)
  
 \item
-  A librarian might want bibliographic information for your publications in
-  machine-readable form (e.g., BibTeX, MARC, or MODS), either for individual
-  items or in bulk for addition to an institutional repository.
+  Her lab might mantains protocols in Protocols.io (https://doi.org/10.1371/journal.pbio.1002538)
+  so that her collaborators and future students can easily find her established
+  protocols using a DOI, while keeping incomplete protocol drafts private.
 
 \item
-  Collaborators might need links to articles, protocols, software or 
-  data used in order to reproduce particular results, or begin
-  their own lineage of inquiry.
+  She posts finalized drafts of her student's research manuscripts on BioRxiv as they undergo
+  peer review at a journal so her colleauges can download the draft easily and 
+  discuss in an upcoming Journal Club.
 
 \item
-  Students might look for prominent links to the university's learning management
-  system (LMS) to access course materials, general information about the subject 
-  of the faculty member's research group, or employment opportunities. 
+  Code used to analyze the data is deposited in Zenodo which she can cite and update
+  as code gets optimized and new versions are created.
   
-  \item
-  Everyone will want persistent links like Digital Object Identifiers (DOIs) \cite{DOI2020} 
-  and ORCID \cite{ORCID2020} identifiers, in order to find your papers or research products.
+\item
+  Each of these repositories create Digital Object Identifiers (DOIs) \cite{DOI2020} which she
+  links to her personal ORCID \cite{ORCID2020} identifier. This way all her reserach products can
+  be found easily by her students and her tenure committee with one link.
 
 \end{itemize}
 
-\noindent
-Each of the users might want content organized chronologically or topically.
-In websites that are generated programmatically using tools such as Blogdown\cite{Xie2017} 
-or Wordpress \cite{Williams2015} these types organization features may be simple to implement. 
-However, increasing the number of site navigation options may confuse the user if it is unclear how items relate to each other. 
-Authors must strike a balance between offering filtering and searching options, 
-and being as inclusive as possible when deciding how materials will be structured and shared with their users.
+By planning ahead to figure out what records need to be preserved it can help ensure
+your research is accessible and reusable. Nearly all major reserach products can be citable and 
+interlinked, making them much easier to find for everyone that you might work with. 
+Once these items are easily citable, we can explore strategies one can use to make it 
+easier to find items within an article, or on a specific webpage. Remember that your 
+future lab members are also your users: they will need to find data you collected 
+long after you forgot where it went, so anything you do for others will likely pay 
+off for yourself eventually\cite{Briney2015}.
 
 \rulemajor{3. Use textual structure.}
 
@@ -326,6 +328,13 @@ but also refine what they would search for based on the terms used in those
 headings. Navigation bars on websites function in a similar way: if the user
 knows exactly what they are looking for, they can scan the menu and select the
 option that matches their need.
+
+Users might want content organized chronologically or topically.
+In websites that are generated programmatically using tools such as Blogdown\cite{Xie2017} 
+or Wordpress \cite{Williams2015} these types organization features may be simple to implement. 
+However, increasing the number of site navigation options may confuse the user if it is unclear how items relate to each other. 
+Authors must strike a balance between offering filtering and searching options, 
+and being as inclusive as possible when deciding how materials will be structured and shared with their users.
 
 \rulemajor{6. Mimic real world directions.}
 
