@@ -1,0 +1,746 @@
+\documentclass[10pt,letterpaper]{article}
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL second-submission.tex   Mon Aug 17 08:27:06 2020
+%DIF ADD 10-findable.tex         Mon Aug 17 08:23:28 2020
+\include{settings}
+
+\newcommand{\rulemajor}[1]{\section*{#1}}
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+\providecommand{\DIFmodbegin}{} %DIF PREAMBLE
+\providecommand{\DIFmodend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+%DIF LISTINGS PREAMBLE %DIF PREAMBLE
+\RequirePackage{listings} %DIF PREAMBLE
+\RequirePackage{color} %DIF PREAMBLE
+\lstdefinelanguage{DIFcode}{ %DIF PREAMBLE
+%DIF DIFCODE_UNDERLINE %DIF PREAMBLE
+  moredelim=[il][\color{red}\sout]{\%DIF\ <\ }, %DIF PREAMBLE
+  moredelim=[il][\color{blue}\uwave]{\%DIF\ >\ } %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstdefinestyle{DIFverbatimstyle}{ %DIF PREAMBLE
+	language=DIFcode, %DIF PREAMBLE
+	basicstyle=\ttfamily, %DIF PREAMBLE
+	columns=fullflexible, %DIF PREAMBLE
+	keepspaces=true %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim}{\lstset{style=DIFverbatimstyle}}{} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim*}{\lstset{style=DIFverbatimstyle,showspaces=true}}{} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
+
+\begin{document}
+\vspace*{0.2in}
+
+\begin{flushleft}
+{\Large
+\textbf\newline{Ten Quick Tips for Making Things Findable}
+}
+\newline
+\\
+{Sarah~Lin}\textsuperscript{1,*},
+{\DIFaddbegin \DIFadd{Ibraheem~Ali}}\DIFadd{\textsuperscript{2}
+}{\DIFaddend Greg~Wilson}\textsuperscript{1}
+\\
+\textbf{1} RStudio, \DIFdelbegin \DIFdel{Inc. }\DIFdelend \DIFaddbegin \DIFadd{PBC
+}\textbf{\DIFadd{2}} \DIFadd{Louise M. Darling Biomedical Library, University of California, Los Angeles
+}\DIFaddend \\
+\bigskip
+* sarah.lin@rstudio.com
+\end{flushleft}
+
+\section*{Abstract}
+
+\DIFdelbegin \DIFdel{Information ecosystems
+consist of }\DIFdelend \DIFaddbegin \DIFadd{The distribution of scholarly content today happens in the context of an immense
+deluge of information found on the internet. As a result, researchers face 
+serious challenges when archiving and finding information that relates to their work.
+Library science principles provide a framework for navigating information ecosystems
+in order to help researchers improve findability of their professional output. Here
+we describe the information ecosystem which consists of }\DIFaddend users, context, and 
+content, all three of which must be addressed to make information findable and usable. 
+\DIFdelbegin \DIFdel{Library science
+principles are a framework for doing this: they help researchers improve
+findability by defining the full scope of their users ' needs and leveraging the
+}\DIFdelend \DIFaddbegin \DIFadd{We provide a set of tips that can help researchers evaluate who their users are, 
+how to archive their research outputs to encourage findability, and how to leverage 
+}\DIFaddend structural elements of \DIFdelbegin \DIFdel{the software that creates, stores, and accesses data,
+research findings, or academic communication stored locally or shared on the
+internet}\DIFdelend \DIFaddbegin \DIFadd{software to make it easier to find information within and beyond
+their publications. As scholars evaluate their research communication strategies, 
+they can use these steps to improve how their research is discovered and reused}\DIFaddend .
+
+\section*{Author summary}
+
+Sarah Lin is the Information Architect and Digital Librarian at RStudio, PBC.
+\DIFaddbegin \DIFadd{Ibraheem Ali is the Sciences Data Librarian at the University of California, Los Angeles.
+}\DIFaddend Greg Wilson works in the \DIFdelbegin \DIFdel{education }\DIFdelend \DIFaddbegin \DIFadd{Education }\DIFaddend team at RStudio, PBC.
+
+\section*{Introduction}
+
+Researchers have always had to manage information, but the exponential growth of
+electronic data has both required and fostered the creation of new ways to do
+this \cite{Rosenfeld2015,Hedden2016}. The problem is not just \DIFdelbegin \DIFdel{finding particular
+information when needed: information }\DIFdelend \DIFaddbegin \DIFadd{about finding a
+particular article or website, but also how to find the information within that is 
+important for reusability and interpretation of the work. Information }\DIFaddend may be stored
+in many formats, exist in multiple versions, and need to be shared with varied audiences
+for both research and teaching.
+
+\DIFaddbegin \DIFadd{In the last 4 years, growing adoption of FAIR principles \mbox{%DIFAUXCMD
+\cite{Wilkinson2016}
+}\hspace{0pt}%DIFAUXCMD
+has helped researchers manage the data and other digital objects associated with
+their professional work. The FAIR principles encourage data to be Findable,
+Accessible, Interoperable, and Reusable. Indeed, research reproducibility
+hinges on these four principles, which form the backbone the following 10 tips.
+This paper is concerned with findability, including research data and
+extending beyond it to encompass all types of work products produced during a
+researcher's career, inside or outside academic settings.
+}
+
+\DIFaddend Library science offers ways to work through the maze of information generated in
+professional life, and librarians' skills can be applied by any researcher who
+\DIFdelbegin \DIFdel{feels overwhelmed}\DIFdelend \DIFaddbegin \DIFadd{seeks to improve access to -and utilization of- their research and other 
+professional outputs}\DIFaddend . The ten quick tips in this paper build on the fact that all
+information ecosystems have users, context, and content \cite{Rosenfeld2015}.
+To solve the information retrieval problem, researchers must therefore think
+broadly about who needs that information and the context within which it is
+created\DIFaddbegin \DIFadd{, }\DIFaddend as well as its actual content.
+
+\rulemajor{1. Design for a wide range of users.}
+
+The first step in making information findable is to determine who will be doing
+the finding. This includes everyone who might \DIFdelbegin \DIFdel{contribute to }\DIFdelend \DIFaddbegin \DIFadd{learn from }\DIFaddend your work, \DIFaddbegin \DIFadd{contribute
+to it, }\DIFaddend expand upon it, or re-share information through their own networks
+\cite{Covert2014}. While you might think \DIFdelbegin \DIFdel{your audience is small and knows your }\DIFdelend \DIFaddbegin \DIFadd{there are only a few relevant experts
+who know your }\DIFaddend field well, \DIFdelbegin \DIFdel{complete
+novices will inevitably find your work
+if it is publicly available}\DIFdelend \DIFaddbegin \DIFadd{novices and trainees will also need to use your work
+as they gain experience in the field}\DIFaddend , thereby making your actual user base
+\DIFdelbegin \DIFdel{both }\DIFdelend \DIFaddbegin \DIFadd{considerably }\DIFaddend larger and more diverse. \DIFdelbegin \DIFdel{Thinking about who
+your users are }\DIFdelend \DIFaddbegin \DIFadd{Furthermore, some users need to access
+scholarship through an intermediary, such as translation software or a screen
+reader. Being mindful of all potential users }\DIFaddend and how they \DIFaddbegin \DIFadd{might need to
+}\DIFaddend interact with you and your work is the foundation of all ten tips.
+
+The information you wish to convey and the way it is currently organized may
+make perfect sense to you, but its meaning for your users is determined by what
+\emph{they} interpret from the information they encounter and the way it's
+arranged. This means that the organizational \DIFdelbegin \DIFdel{structures you employ }\DIFdelend \DIFaddbegin \DIFadd{strategies you use }\DIFaddend are a
+communication channel in their own right. To illustrate this, Borges created a
+classification of animals whose categories included ``those belonging to the
+Emperor,'' ``embalmed ones,'' ``suckling pigs,'' ``those included in this
+classification,'' ``those drawn with a very fine camel hair brush,'' and ``those
+that look like flies from far away'' \cite{Borges2000}. While this was
+deliberately ridiculous, it illustrates the fact that every way of organizing
+knowledge embodies choices by the organizer, which may or may not align with
+those of the audience. \DIFaddbegin \DIFadd{Therefore when preparing materials for sharing it is
+important to establish context, to use clear and concise language, and minimize
+the use of jargon.
+}\DIFaddend 
+
+More \DIFdelbegin \DIFdel{prosaically}\DIFdelend \DIFaddbegin \DIFadd{concretely}\DIFaddend , consider the website of a faculty member coming up for tenure:
+\DIFdelbegin \DIFdel{She }\DIFdelend \DIFaddbegin \DIFadd{she }\DIFaddend created the website as post-doc to publicize her papers and to make it
+easier to fill out grant applications by listing professional activities in one
+place\DIFdelbegin \DIFdel{, but}\DIFdelend \DIFaddbegin \DIFadd{. Yet the site might be useful in other cases as well}\DIFaddend :
+
+\begin{itemize}
+
+\item
+  Colleagues \DIFdelbegin \DIFdel{will }\DIFdelend \DIFaddbegin \DIFadd{may }\DIFaddend come to the site looking for un-paywalled copies of her papers,
+  \DIFdelbegin \DIFdel{and }\DIFdelend to find out what she's currently working on\DIFaddbegin \DIFadd{, }\DIFaddend or where she is next going to
+  present her work.
+
+\item
+  Tenure committee members might \DIFdelbegin \DIFdel{peruse }\DIFdelend \DIFaddbegin \DIFadd{review }\DIFaddend her accomplishments to \DIFdelbegin \DIFdel{determine }\DIFdelend \DIFaddbegin \DIFadd{assess }\DIFaddend her
+  work's impact.
+
+\item
+  A librarian (or a program written by a librarian) might scrape that site for
+  journal articles to include in the university's institutional repository.
+
+\item
+  A student might come to the site looking for course information \DIFaddbegin \DIFadd{or materials}\DIFaddend .
+
+\end{itemize}
+
+Reaching out to \DIFdelbegin \DIFdel{just a handful of users }\DIFdelend \DIFaddbegin \DIFadd{a variety of users with distinct needs }\DIFaddend to ask for findability
+feedback will help you \DIFdelbegin \DIFdel{see }\DIFdelend \DIFaddbegin \DIFadd{discover }\DIFaddend any gaps in organizational alignment.
+
+\DIFdelbegin %DIFDELCMD < \rulemajor{2. Figure out what ``done'' looks like.}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \rulemajor{2. Design with the end in mind.}
+\DIFaddend 
+
+Given \DIFdelbegin \DIFdel{how easy it is to }\DIFdelend \DIFaddbegin \DIFadd{the current state of technology it can be easy to rapidly }\DIFaddend create digital
+information\DIFdelbegin \DIFdel{and }\DIFdelend \DIFaddbegin \DIFadd{. With }\DIFaddend the plethora of software and formats you may employ, you
+almost certainly have \DIFdelbegin \DIFdel{lots of }\DIFdelend information in lots of different formats\DIFaddbegin \DIFadd{, file types }\DIFaddend and
+locations. The second step in making things findable is \DIFdelbegin \DIFdel{therefore to catalog }\DIFdelend \DIFaddbegin \DIFadd{to think ahead about
+the things you would want to be found at the completion of the project before
+cataloging }\DIFaddend what you have\DIFdelbegin \DIFdel{, and then determine what should
+go
+where}\DIFdelend \DIFaddbegin \DIFadd{. That way you can have time to anticipate what can go
+where, and adapt if necessary before materials are published}\DIFaddend .
+
+\DIFdelbegin \DIFdel{Figuring out what ``done'' will look like can be personally motivating, but once
+again you must determine what your users will consider a good outcome, which may
+not align with what you would do if you were the information's only consumer.
+  However, remember that your }\DIFdelend \DIFaddbegin \DIFadd{This is particularly relevant when examining a typical research workflow. A
+researcher uses a particular set of data sources (Figure~\ref{workflow}A), such
+as model organisms, molecular systems, publicly available next-generation
+sequencing data, or other locally curated collections of information.
+Subsequently, data sources are treated with specialized protocols and tools in
+the lab (Figure~\ref{workflow}B) which help visualize, identify or extrapolate
+new observations about biological phenomena (Figure~\ref{workflow}C). After
+repetition, trends seen among noisy biological observations can be further
+analyzed, visualized, and statistically evaluated with software or code
+(Figure~\ref{workflow}D). Finally, the researcher builds context for the work by
+writing a manuscript and citing relevant literature (Figure~\ref{workflow}E).
+Manuscripts are revised by colleagues in the field through peer review
+and published in a peer reviewed journal.
+}
+
+\begin{figure}
+  \includegraphics[width=\textwidth]{workflow.png}
+  \captionsetup{justification=centering}
+  \caption{\DIFaddFL{A typical research workflow. A-E: Major components of the research workflow.
+  F: An example set of citable repositories or tools. G: Persistent identifiers used
+  for the example repositories listed. DOI: Digital Object Identifier, RRID: Research
+  Resource Identifier, ROR: Research Organization Registry, ORCID: Open Researcher and 
+  Contributor ID. * Some institutions maintain their own repositories for archiving data
+  and may be available to researchers at a low or no cost}}
+  \label{workflow}
+\end{figure}
+
+\DIFadd{By planning ahead, you can identify what research products can go where, and
+update them if necessary before materials are published in a peer-reviewed
+journal or cited in a grant application. Advancements in best-practices
+for making research products more `FAIR' has led to the creation of an array
+of discipline specific, and general repositories\mbox{%DIFAUXCMD
+\cite{PLOS2020}}\hspace{0pt}%DIFAUXCMD
+. Researchers
+can deposit research products created from each of the steps in the workflow (Figure~\ref{workflow}F).
+Many repositories now create Digital Object Identifiers (DOIs)\mbox{%DIFAUXCMD
+\cite{DOI2020}}\hspace{0pt}%DIFAUXCMD
+, or
+other permanent identifiers for their submissions, making them citable and
+easily linked to the contributing researchers via Open Researcher and Contributor
+IDs (ORCIDs)\mbox{%DIFAUXCMD
+\cite{ORCID2020} }\hspace{0pt}%DIFAUXCMD
+(Figure~\ref{workflow}G). Many repositories follow the standards
+set by experts in the field, reporting information that is recommended for
+reproducibility while employing necessary practices to protect the privacy of
+sensitive information.
+}
+
+\DIFadd{Elaborating on our example of the hypothetical faculty member. She wants to plan 
+ahead to be sure her research is accessible and reusable by her lab, students and 
+collaborators. She works in a competitive field, so she also wants to maintain 
+some privacy with regard to works in progress. She takes advantage of some
+repositories and tools that help make her work easier to find for a variety of
+users (Figure~\ref{workflow}F). This way nearly all of her major research products can be citable and
+are interlinked. The resulting network of citations aids findability greatly:
+}
+
+\begin{itemize}
+
+\item
+  \DIFadd{Finalized laboratory data is stored in Dryad\mbox{%DIFAUXCMD
+\cite{DRYAD2020} }\hspace{0pt}%DIFAUXCMD
+which allows her 
+  to cite the same data source in multiple publications with a single DOI. She can even 
+  update the data archive as new pertinent data is collected and the link will not change.
+ }
+
+\item
+  \DIFadd{Lab protocols maintained in Protocols.io\mbox{%DIFAUXCMD
+\cite{Teytelman2016} }\hspace{0pt}%DIFAUXCMD
+ensure future
+  collaborators, lab members and students can easily find her established
+  protocols using a DOI, while keeping incomplete protocol drafts private.
+}
+
+\item
+  \DIFadd{Code used to analyze the data is deposited in Zenodo\mbox{%DIFAUXCMD
+\cite{ZENODO2020} }\hspace{0pt}%DIFAUXCMD
+which
+  she can cite and update as code gets optimized and new versions are created,
+  which also allows anyone looking to reproduce her research to also reproduce
+  the analysis.
+}
+
+\item
+  \DIFadd{Posting finalized drafts of her student's research manuscripts on a preprint
+  site like BioRxiv\mbox{%DIFAUXCMD
+\cite{bioRxiv2020} }\hspace{0pt}%DIFAUXCMD
+enables colleagues to download the draft
+  easily, discuss in an upcoming Journal Club, and publish the feedback publicly PREreview\mbox{%DIFAUXCMD
+\cite{PREreview2020}}\hspace{0pt}%DIFAUXCMD
+.
+  }
+
+  \item
+  \DIFadd{Her ORCID identifier is linked to each of the DOIs created by these
+  repositories, ensuring that students, collaborators, tenure committees, and
+  librarians can all access her research outputs with one link.
+}
+
+\end{itemize}
+
+\noindent
+\DIFadd{Following the standards recommended by experts\mbox{%DIFAUXCMD
+\cite{Wilkinson2016} }\hspace{0pt}%DIFAUXCMD
+in the field
+as you design your information ecosystem will reduce the barrier to finding
+relevant materials associated with your work. Furthermore, most publishers already
+require data and code archiving to encourage reproducibility. Remember that your }\DIFaddend future self is
+also one of your users: everyone is \DIFdelbegin \DIFdel{forgetful}\DIFdelend \DIFaddbegin \DIFadd{prone to forgetfulness}\DIFaddend , so anything you do
+for others will likely pay off for yourself eventually\DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\cite{Briney2015}}\hspace{0pt}%DIFAUXCMD
+}\DIFaddend .
+
+\DIFaddbegin \DIFadd{Planning to incorporate persistent identifiers into the research workflow is a
+straightforward way to design for findability. }\DIFaddend Remember too that the \DIFdelbegin \DIFdel{question of how }\DIFdelend \DIFaddbegin \DIFadd{strategies
+users employ }\DIFaddend to find something can \DIFdelbegin \DIFdel{mean different things. Users may need to find your }\DIFdelend \DIFaddbegin \DIFadd{look different in different contexts. Beyond
+finding your published or unpublished }\DIFaddend work on the web, \DIFaddbegin \DIFadd{users may need to }\DIFaddend find a
+specific item within a website, and/or find a particular piece of information
+within a specific file or \DIFaddbegin \DIFadd{item within a }\DIFaddend webpage. Depending on your content, you
+may have challenges in all three areas; the remaining tips on context and
+content will help you address \DIFdelbegin \DIFdel{them.
+}\DIFdelend \DIFaddbegin \DIFadd{these issues.
+}\DIFaddend 
+
+\DIFdelbegin \DIFdel{Returning to the faculty website from the previous tip as just one example of
+varied needs:
+}%DIFDELCMD < 
+
+%DIFDELCMD < \begin{itemize}
+\begin{itemize}%DIFAUXCMD
+%DIFDELCMD < 
+
+%DIFDELCMD < \item
+\item%DIFAUXCMD
+%DIFDELCMD <   %%%
+\DIFdel{Tenure committee members will want human-readable descriptions of related sets
+  of papers along with links to presentations or posters that discuss them.
+ }%DIFDELCMD < 
+
+%DIFDELCMD < \item
+\item%DIFAUXCMD
+%DIFDELCMD <   %%%
+\DIFdel{The librarian will want bibliographic information for your publications in
+  machine-readable form (e.g., BibTeX, MARC, or MODS), either for individual
+  items or in bulk for addition to an institutional repository.
+}%DIFDELCMD < 
+
+%DIFDELCMD < \item
+\item%DIFAUXCMD
+%DIFDELCMD <   %%%
+\DIFdel{Colleagues will want all of the above, plus pointers to the software and data
+  used in order to reproduce particular results.
+}%DIFDELCMD < 
+
+%DIFDELCMD < \item
+\item%DIFAUXCMD
+%DIFDELCMD <   %%%
+\DIFdel{Students will want prominent links to the university's learning management
+  system (LMS), which is where the course information they're searching for is
+  actually located.
+}%DIFDELCMD < 
+
+
+\end{itemize}%DIFAUXCMD
+%DIFDELCMD < \end{itemize}
+%DIFDELCMD < 
+
+%DIFDELCMD < \noindent
+%DIFDELCMD < %%%
+\DIFdel{Each of these users might want content organized chronologically or topically.
+It's easy to provide both if the website is generated programmatically using a
+tool such as Blogdown \mbox{%DIFAUXCMD
+\cite{Xie2017} }\hspace{0pt}%DIFAUXCMD
+or Wordpress \mbox{%DIFAUXCMD
+\cite{Williams2015}}\hspace{0pt}%DIFAUXCMD
+, but
+increasing the number of navigation options may make it harder for users to
+determine how the things they find are related to each other.
+}%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdelend \rulemajor{3. Use textual structure.}
+
+Findability at the document, post, or article level can be improved by taking
+advantage of the textual structures that information management programs provide
+\cite{Hedden2016}. For example, a key part of searching the web is scanning the
+text returned by search engines to see if it contains target information.
+Textual structure helps that process \cite{Krug2014}: formatted headers (rather
+than just enlarged text), bulleted or numbered lists, and \textbf{highlighting}
+terms that are important all make both the information and its structure easier
+to understand. Similarly, headings and table of contents can be hyperlinked,
+which supports both scanning and navigation. \DIFaddbegin \DIFadd{Textual structure aids navigation
+both by helping users create a mental map of the webpage or document they have
+found, but also by exposing elements utilized by screen readers to make your
+work accessible.
+}\DIFaddend 
+
+Textual content is created and aggregated in so many forms, using so many
+different programs, that it is difficult to specify strategies beyond headings,
+lists, and highlighting. However, specialists working in the same field tend to
+adopt the same tools, so it is worth exploring how your peers annotate
+information as well as creating, manipulating, or storing it. For example:
+
+\begin{itemize}
+
+\item
+  GitHub allows users to add tags to issues and commit messages which can then
+  be searched \DIFdelbegin \DIFdel{for }\DIFdelend across projects.
+
+\item
+  Electronic lab notebooks can use XML schemas like Darwin Core, EML, or FITS
+  \cite{Briney2015}.
+
+\item
+  Using specific Google Docs heading levels creates a table of contents in real
+  time, visible when the file is open.
+
+\item
+  CSV files do not have a standard way to store metadata, but authors commonly
+  created a README or MANIFEST file that describes the structure and content of
+  the files in a collection. (See \cite{Pudding} for examples.)
+
+\end{itemize}
+
+On a practical level, templates for file creation, data collection, and \DIFaddbegin \DIFadd{electronic 
+}\DIFaddend lab notebooks makes it easier to be consistent and to spot inconsistencies.
+
+\rulemajor{4. Add metadata.}
+
+Just like people who end up with piles of photographs with nothing written on
+the back, we all have digital mounds of files and content with no metadata
+describing when it was created or what it contains. Even the most basic
+metadata provides extra clues for information retrieval; however, what you can
+add depends on the software you use to create, store, and access your
+information, and on the file formats that information is stored in.
+
+Almost all modern operating systems allow you to add information to the
+Properties of a file or directory. Databases, word processors, and website
+construction programs also have built-in metadata capabilities, though they may
+be hard to find and harder to understand how to leverage. To make matters
+worse, the fact that metadata is often software-specific makes it easy for
+inconsistencies to creep in. For example:
+
+\begin{itemize}
+
+\item
+  The tags used on a WordPress website may not be in step with the properties in
+  the images on that site.
+
+\item
+  Keywords added to a journal article when submitting to the publisher's site
+  are not automatically added to the metadata in the PDF being submitted.
+
+\item
+  When a citation is copied from \DIFdelbegin \DIFdel{an article database }\DIFdelend \DIFaddbegin \DIFadd{a database or repository }\DIFaddend to a bibliography
+  manager, the software may not copy over the structural information implied by
+  the article's location in the database.
+
+\end{itemize}
+
+The most difficult thing about metadata, however, is getting into the habit of
+creating it in the first place. If you get to choose what software to use, it
+helps to pick one that \DIFdelbegin \DIFdel{makes simple things simple}\DIFdelend \DIFaddbegin \DIFadd{simplifies metadata creation}\DIFaddend . For example, most website
+generators allow you to type tags into an article's header without having to
+define them first. This can lead to a proliferation of synonymous (or
+misspelled) tags, but some occasional cleanup is better than tackling a mountain
+of untagged information. \DIFaddbegin \DIFadd{Repositories that force metadata creation upon
+submission greatly assist efforts to make work product findable, and researchers
+would be well served to replicate those metadata elements within their own file
+storage schemas. Indeed, creating an internal taxonomy (list of terms) or
+ontology (list of relationships) at the beginning of a project can make
+assigning metadata much easier.
+}\DIFaddend 
+
+You should also examine how metadata can be transferred from an old system to a
+new one if you have the luxury of switching software (or have \DIFdelbegin \DIFdel{had }\DIFdelend a change forced on
+you). Some form of XML is usually the best option when doing this: it is likely
+to be with us for many years to come, and the same pedantry that makes it
+tedious for human beings to type and read ensures that programs can read it
+without having to guess what its creators actually intended. \DIFaddbegin \DIFadd{FAIR principles
+help ease the burden of software and storage migration. They encourage
+researchers to plan for interoperability in software and data storage from the
+beginning of their projects, and reduces concerns about data migration.
+}\DIFaddend 
+
+\rulemajor{5. Use search \emph{and} browsing}
+
+Research on information seeking shows that people search \emph{and} browse when
+they're trying to find information. As they browse a website\DIFdelbegin \DIFdel{or }\DIFdelend \DIFaddbegin \DIFadd{, }\DIFaddend document or
+file, they build a mental map of the content they could possibly find, then
+search based on that map. ``In the process, they modify their information
+requests as they learn more about what they need and what information is
+available from the system'' \cite{Rosenfeld2015}. You have probably seen or
+done something similar with a print book, trying to determine if it's one you
+want by looking at the table of contents and the back cover. These two
+functions work together because search allows users to find information they
+know they need, whereas browsing allows users to find information they don't
+know that they need\cite{Bates2002}. \DIFaddbegin \DIFadd{Designing for both browsing and searching
+is especially pertinent in a search algorithm environment that often dynamically
+creates results unique to each individual search executed, influenced by the
+user's previous interaction with a particular website and/or internet browser.
+}\DIFaddend 
+
+You should therefore make information accessible both ways and make it easy to
+move from searching to browsing and back again. Tags and other metadata help
+with searching, while structural clues tell users about the content contained in
+the information they are looking at. That communication, ``enables the answers
+to users' questions to rise to the surface and answer questions like, Where am
+I? What's here? Where can I go from here?''  \cite{Rosenfeld2015}. Similarly,
+``{\ldots}the words you use in the navigation systems and headings of [your
+  content] help you find what you're looking \emph{for}, but they also help you
+understand what you're looking \emph{at}'' \cite{Arango2018}.
+
+For example, when users don't know exactly what they need, the terms in a menu
+help them understand the vocabulary used in this domain and the boundaries of
+what is included (i.e., terms are listed) or excluded (i.e., no menu terms
+exist). At the same time, the headings in the documents they find act as
+topical markers: they help users summarize the information contained in the
+document, but also refine what they would search for based on the terms used in
+those headings. Navigation bars on websites function in a similar way: if the
+user knows exactly what they are looking for, they can scan the menu and select
+the option that matches their need.
+
+\DIFaddbegin \DIFadd{Additionally, users might want content organized chronologically or topically.
+In websites that are generated programmatically using tools such as
+Blogdown\mbox{%DIFAUXCMD
+\cite{Xie2017} }\hspace{0pt}%DIFAUXCMD
+or Wordpress \mbox{%DIFAUXCMD
+\cite{Williams2015} }\hspace{0pt}%DIFAUXCMD
+these types organization
+features may be simple to implement. However, increasing the number of site
+navigation options may confuse the user if it is unclear how items relate to
+each other. Authors must strike a balance between offering filtering and
+searching options, and being as inclusive as possible when deciding how
+materials will be structured and shared with their users.
+}
+
+\DIFaddend \rulemajor{6. Mimic real world directions.}
+
+The language we use in digital environments mirrors that used for physical
+directions: we ``visit'' or ``go to'' a website without actually changing our
+physical location. Using the navigational metaphor consistently helps users
+build the mental map mentioned in the previous tip. File paths and breadcrumb
+trails on websites give users a sense of where the information resides and
+suggest new paths they can take \cite{Krug2014}. For example, the URLs of a
+website might all include the name of a section of the site, such as
+\texttt{/papers/} or \texttt{/blog/}. \DIFaddbegin \DIFadd{DOIs and ORCIDs function as the best
+kind of internet `signage,' ensuring users never encounter a``webpage not found"
+error message in the course of retrieving a particular publication.
+}\DIFaddend 
+
+While much has been written about web usability in general
+\cite{Covert2014,NNG2020}, library science focuses on information-seeking
+behavior. For example, we know that users scan but don't read: they click on
+the first close thing they see and give up very, very quickly \cite{Bates2002}.
+Your markers and directions should therefore be as consistent as highway signs
+with regards to appearance, style, and type of information. Wherever possible
+(and it's \emph{always} possible), use mechanisms that users will have become
+familiar with elsewhere, such as the vertically nested folders of file browsers
+or the left-to-right arrangement of breadcrumb trails. \DIFaddbegin \DIFadd{Persistent identifiers
+are a great example of markers that consistently aid navigation in structured
+(e.g., databases) and unstructured (e.g., personal websites) environments.
+}\DIFaddend 
+
+\rulemajor{7. Use meaningful names.}
+
+The names of files and URLs of webpages are the one piece of metadata you cannot
+avoid creating, so always choose ones that are human-readable and that convey
+information about what they name, both when navigated to \emph{and} when
+returned in search results. Returning again to the faculty member's website, it
+would be easy to name a paper \texttt{plos2020.pdf}, but since other people may
+also have published papers in PLoS in 2020, a more structured name such as
+\texttt{lin-findability-plos-2020.pdf} will both convey more information at a
+glance and retain that information after the paper has been downloaded and put
+in a folder with dozens of others.
+
+There are many ways to develop a naming schema, largely related to the nature of
+the information you create. At the most basic level, ``you should use
+consistent names for the same reason that you use good file organization: so you
+can easily find and use data later. Additionally, good naming helps you avoid
+duplicating information \cite{Briney2015}. Researchers with multiple research
+projects or significant complexity in their data sources should establish and
+document a unified system of abbreviations for those projects or sources; these
+can be summarized in a data dictionary or README file. Consistency is key:
+standardizing on lower case, a preferred date format (YYYMMDD or YYYY-MM-DD will
+both sort chronologically), and filename suffixes (\texttt{.jpg} instead of
+\texttt{.jpeg}) will help everyone find what they need
+\cite{Wilson2014,Wilson2017}.
+
+Renaming existing files to be consistent with your standards after the fact can
+seem like a waste of precious time, but since the research cycle doesn't end
+with publication \cite{Briney2015}, there is a very high likelihood that someone
+will need to reuse your data and will have to try to figure out what files
+corresponded to what part of your research. \DIFaddbegin \DIFadd{Similarly to establishing metadata
+norms before beginning a project, creating a naming convention that is adopted
+by any collaborators before research begins will preserve findability into the
+future.
+}\DIFaddend 
+
+If you have things to name that are not files, such as projects, web pages, or
+document headings, remember that the more generic a term is, the harder it is to
+search for: naming a raw data file ``raw'' or a downloaded file ``download''
+makes finding the information they contain nearly impossible. A quick test is
+to search for the name before adopting it: if dozens of unrelated \DIFdelbegin \DIFdel{pages }\DIFdelend \DIFaddbegin \DIFadd{results }\DIFaddend come
+up, you may want to pick a different name. You should also think about
+nicknames or shortened versions of your names and make sure they are present in
+text or tags so that the content can be discovered by a search engine and a
+user.
+
+\rulemajor{8. Use tags.}
+
+After meaningful names, tags are the easiest and most effective metadata you can
+create. Almost all digital tools allow users to add arbitrary tags to items:
+file properties on Windows and labels on GitHub issues are just two examples.
+Additionally, almost all search tools leverage tags to narrow a query's scope.
+This means that you can now file a single thing in multiple ``locations'', which
+was not possible in the pre-digital era. Multiple tags also assist users from
+varied backgrounds because the terms can be customized to \DIFdelbegin \DIFdel{each
+type of user your information has}\DIFdelend \DIFaddbegin \DIFadd{be inclusive of a
+diverse set of users}\DIFaddend .
+
+When choosing tags, be consistent in your depth of topical term assignment (how
+specific your terms are) and your selection of terms for subject and format (the
+number of terms you use to describe each subject and format). For example, if
+you tag some items in an ecological data set with a species name, don't tag
+others simply as ``reptile'' unless the species is unknown, in which case you
+should:
+
+\begin{itemize}
+
+\item
+  tag all items ``reptile'', ``bird'', ``mammal'', and so on for high-level
+  searches, and
+
+\item
+  tag all items with a species, which might be ``unknown'' or ``NA'' (not
+  available)\DIFaddbegin \DIFadd{, or
+  }
+
+\item
+  \DIFadd{tag all items at both general and increasingly specific categories if that is
+  the standard for your discipline \mbox{%DIFAUXCMD
+\cite{FAIR2020}}\hspace{0pt}%DIFAUXCMD
+}\DIFaddend .
+
+\end{itemize}
+
+What should you tag?  The answer is ``everything'' from informal personal notes
+to data sets submitted with publications or included in repositories, because it
+is all material you will want to be able to find later. The benefit of tagging
+comes from doing it in all of those situations, not just when a journal
+submission requires it.
+
+If you are certain something is for purely personal use, you can create your own
+taxonomy of subject keywords, which is called a \emph{folksonomy}. Folksonomies
+are what you see with tags on Flickr: early content creators assign terms as
+they see fit, and later contributors can use those or add their own. If you
+take this route, it's worth reviewing new tags regularly to look for synonyms,
+misspellings, differences in capitalization, singular/plural discrepancies, and
+other inconsistencies.
+
+What terms you use as tags for personal consumption may not matter much, but
+work that is shared with colleagues should use particular terms or tags that
+conform to \DIFdelbegin \DIFdel{certain }\DIFdelend \DIFaddbegin \DIFadd{relevant }\DIFaddend standards \cite{FAIR2020}. These terms typically come from
+taxonomies, thesauri, and ontologies: taxonomies and thesauri generally have
+built-in subject hierarchies that can help you create navigational structure,
+while ontologies map relationships between ideas. Crucially, all three are
+\emph{controlled vocabularies}: they are a defined list of terms created and
+maintained by experts rather than being crowdsourced like a folksonomy.
+
+There may or may not be relationships built between terms in a controlled
+vocabulary, such as equivalencies (``CA'' for ``California''), broader/narrower
+terms (United States/California), and/or replacement (weed \emph{use}
+marijuana). Established subject terms will match article databases, data
+repositories, and library catalogs that you and your users might already be
+familiar with, which will again aid search and navigation. Well-known examples
+in the United States include the National Cancer Institute (NCI) Thesaurus
+\cite{NCI2020} and the Medical Subject Headings (MeSH) \cite{ASI2020}.
+
+\rulemajor{9. Understand the difference between format and subject.}
+
+However you create tags, you need to address the distinction between format and
+subject. Format describes what your content \emph{is}, while subject describes
+what it is \emph{about} \cite{Joudrey2015}. About-ness is the most common
+content analysis, but is-ness issues will probably affect people's ability to
+use your information, so you may want to add metadata to make it explicit.
+
+A simple example of this is a blog post on a \DIFaddbegin \DIFadd{researcher's professional }\DIFaddend website.
+The post is \emph{about} a subject, \DIFaddbegin \DIFadd{like a book review, }\DIFaddend but it \emph{is} a blog
+post rather \DIFdelbegin \DIFdel{your }\DIFdelend \DIFaddbegin \DIFadd{than }\DIFaddend biographical details, \DIFdelbegin \DIFdel{your
+}\DIFdelend bibliography, or \DIFdelbegin \DIFdel{thumbnails of the images you have used}\DIFdelend \DIFaddbegin \DIFadd{a list of currently
+taught classes}\DIFaddend . Going back to your users, what subjects are important to them?
+And do those topics carry over or change between differences in format? For a
+librarian, this is basically a question of combined terms: are your format terms
+uniquely matched to topics (e.g., blog posts are always about news) or do you
+have multiple topics in each format (e.g., blog posts and tutorials on the same
+subject)?
+
+Similarly, you can rely on filename suffixes to distinguish computational
+notebooks from PDF files, tabular data sets, or slide decks, but should use
+tagging, a filename convention, or a description in a README to tell people
+whether the contents are raw information, tidied-up data, or an aggregation of
+several underlying datasets. This enables users to search by topic, format, or
+both.
+
+Since dissemination sometimes changes a file's format (e.g., printing slides to
+a PDF), naming and metadata conventions tend to be more robust as well as more
+informative than relying on file types. Once again, structural clues can help:
+a folder specifically for conference presentations may contain one sub-folder
+for each presentation, which in turn contains the PowerPoint and PDF versions of
+the presentation with exactly the same names but different filetype suffixes.
+Likewise, journal articles you store will need a naming or structural convention
+to distinguish articles you have written from those you have downloaded for your
+own use.
+
+\rulemajor{10. Do not abbrvt.}
+
+Acronyms and abbreviations make communication between those who know them more
+efficient at the price of making them less accessible to newcomers. Spelling
+out acronyms and abbreviations that you take for granted (or hyperlinking to
+their definitions) \DIFdelbegin \DIFdel{therefore }\DIFdelend makes information easier to find and \DIFdelbegin \DIFdel{newcomers feel
+more welcome}\DIFdelend \DIFaddbegin \DIFadd{enables newcomers to
+participate in conversations that are considered technical or advanced}\DIFaddend . When
+doing this, remember that acronyms are often repurposed by different professions
+or disciplines: what seems obvious to you is probably not obvious to people from
+other communities. Since every discipline has some common abbreviations, write
+them all out in full the first time they appear or create or point to a term
+dictionary.
+
+\section*{Conclusion}
+
+Changing work habits is hard, so remember that while perfection isn't possible,
+progress is. Start by deciding whether to begin your next project with a new
+set of information organizing principles or to go back and alter existing
+artifacts \cite{Briney2015}\DIFaddbegin \DIFadd{. You might also consider this process as you would
+a research experiment, and incorporate one small change at a time}\DIFaddend . Whichever
+you choose, the ``ways you enforce your way of doing things changes how users
+think about the place[s] you made and perhaps ultimately, how they think about
+you'' \cite{Covert2014}.
+
+\bibliography{10-findable}
+
+\end{document}
