@@ -1,0 +1,58 @@
+To whom it may concern,
+
+Thank you for your feedback on our paper "Ten Quick Tips for Making Things
+Findable".  We have made most of the changes requested by the reviewers, and
+have responded to the one we chose not to make (see below). The file
+"10-findable.pdf" is the updated version, while "fourth-submission-changes.pdf"
+highlights alterations. As requested, we are submitting the figure in a separate
+file and have put the figure caption at the end of the paper.
+
+Thank you for your consideration,
+
+Sarah Lin, Ibraheem Ali, and Greg Wilson
+
+
+The reviewer wrote: "Tip 2: I like the idea of a figure, but I found this one
+slightly confusing with the A-G labels. For example, won’t code & analytics (D)
+be part of the computational method mentioned at (B). I would think about
+simplifying and making this self-consistent."
+
+We have simplified the figure clarifying the methods distinction. For the
+purposes of this figure we prefer to keep the code and methods separate, because
+they are not always archived together.
+
+The reviewer wrote: "Also, in this tip you mention publication in a
+peer-reviewed journal, whereas (F) only has citations to preprint sites. While I
+am a preprint fan and I don’t want to take you off course, I would suggest you
+mention benefits here for the many publication products that won’t necessarily
+be part of a peer-reviewed publication. This is in addition to the single text
+mention of preprints in the bulleted list in this section."
+
+The following text has been added to provide context for the benefits (and
+challenges) of publication products like preprints. “Furthermore, the surge in
+use of preprints and other similar research products has created an abundance of
+citable research products. While they are useful for demonstrating open research
+productivity, they create an added challenge of finding the many different types
+of research products that arise in the modern workflow. The second step in
+making things findable is to think ahead about the things you would want to be
+found at the completion of the project, including relevant preprints, before
+cataloging what you have.”
+
+In addition we moved the reference for Figure 1F for clarity. “Advancements in
+best-practices for making research products more `FAIR' has led to the creation
+of an array of discipline specific, and general repositories (Figure 1F).”
+
+Finally, we added information in the figure caption to clarify that we are
+referring to databases that do not include journal articles “F: An example set
+of citable repositories or tools used to find research products outside of
+journal articles.”
+
+The reviewer wrote: "Finally, I’d also include a reference to Docker/Dockerfiles
+as an important emerging standard for code publication and reuse."
+
+We agree that the use of Docker is an important tool for interoperability and
+reproducibility, but this article focuses on _findability_.  Container images
+created in Docker are searched in DockerHub, but this platform does not (yet)
+create persistent identifiers and does not follow all the findability best
+practices that we describe. We therefore do not think it is ready to be included
+in one of the tips.

@@ -1,7 +1,7 @@
 \documentclass[10pt,letterpaper]{article}
 %DIF LATEXDIFF DIFFERENCE FILE
 %DIF DEL third-submission.tex   Sat Oct 17 06:51:15 2020
-%DIF ADD 10-findable.tex        Sat Oct 17 06:54:31 2020
+%DIF ADD 10-findable.tex        Tue Oct 20 11:39:49 2020
 \include{settings}
 
 \newcommand{\rulemajor}[1]{\section*{#1}}
@@ -183,42 +183,47 @@ relevant preprints, }\DIFaddend before cataloging what you have. That way you ca
 anticipate what can go where, and adapt if necessary before materials are published.
 
 This is particularly relevant when examining a typical research workflow. A
-researcher uses a particular set of data sources (Figure~\ref{workflow}A), such
+researcher uses a particular set of data sources (Figure~\DIFdelbegin \DIFdel{\ref{workflow}A}\DIFdelend \DIFaddbegin \DIFadd{1A}\DIFaddend ), such
 as model organisms, molecular systems, publicly available next-generation
 sequencing data, or other locally curated collections of information.
 Subsequently, data sources are treated with specialized protocols and tools in
-the lab (Figure~\ref{workflow}B) which help visualize, identify or extrapolate
-new observations about biological phenomena (Figure~\ref{workflow}C). After
+the lab (Figure~\DIFdelbegin \DIFdel{\ref{workflow}B}\DIFdelend \DIFaddbegin \DIFadd{1B}\DIFaddend ) which help visualize, identify or extrapolate
+new observations about biological phenomena (Figure~\DIFdelbegin \DIFdel{\ref{workflow}C}\DIFdelend \DIFaddbegin \DIFadd{1C}\DIFaddend ). After
 repetition, trends seen among noisy biological observations can be further
 analyzed, visualized, and statistically evaluated with software or code
-(Figure~\ref{workflow}D). Finally, the researcher builds context for the work by
-writing a manuscript and citing relevant literature (Figure~\ref{workflow}E).
+(Figure~\DIFdelbegin \DIFdel{\ref{workflow}D}\DIFdelend \DIFaddbegin \DIFadd{1D}\DIFaddend ). Finally, the researcher builds context for the work by
+writing a manuscript and citing relevant literature (Figure~\DIFdelbegin \DIFdel{\ref{workflow}E}\DIFdelend \DIFaddbegin \DIFadd{1E}\DIFaddend ).
 Manuscripts are revised by colleagues in the field through peer review
 and published in a peer reviewed journal.
 
-\begin{figure}
-  \includegraphics[width=\textwidth]{workflow.png}
-  \captionsetup{justification=centering}
-  \caption{A typical research workflow. A-E: Major \DIFdelbeginFL \DIFdelFL{components }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{steps }\DIFaddendFL of the research workflow.
-  F: An example set of citable repositories or tools \DIFaddbeginFL \DIFaddFL{used to find research products 
-  outside of journal articles}\DIFaddendFL . G: Persistent identifiers used
+\DIFdelbegin %DIFDELCMD < \begin{figure}
+%DIFDELCMD <   \includegraphics[width=\textwidth]{workflow.png}
+%DIFDELCMD <   \captionsetup{justification=centering}
+%DIFDELCMD <   %%%
+%DIFDELCMD < \caption{%
+{%DIFAUXCMD
+\DIFdelFL{A typical research workflow. A-E: Major components of the research workflow.
+  F: An example set of citable repositories or tools. G: Persistent identifiers used
   for the example repositories listed. DOI: Digital Object Identifier, RRID: Research
   Resource Identifier, ROR: Research Organization Registry, ORCID: Open Researcher and 
   Contributor ID. * Some institutions maintain their own repositories for archiving data
-  and may be available to researchers at a low or no cost}
-  \label{workflow}
-\end{figure}
+  and may be available to researchers at a low or no cost}}
+  %DIFAUXCMD
+%DIFDELCMD < \label{workflow}
+%DIFDELCMD < \end{figure}
+%DIFDELCMD < 
 
-By planning ahead, you can identify what research products can go where, and
+%DIFDELCMD < %%%
+\DIFdelend By planning ahead, you can identify what research products can go where, and
 update them if necessary before materials are published in a peer-reviewed
 journal or cited in a grant application. Advancements in best-practices
 for making research products more `FAIR' has led to the creation of an array
-of discipline specific, and general repositories\cite{PLOS2020} \DIFaddbegin \DIFadd{(Figure~\ref{workflow}F)}\DIFaddend . 
+of discipline specific, and general repositories\cite{PLOS2020} \DIFaddbegin \DIFadd{(Figure~1F)}\DIFaddend . 
 Researchers can \DIFdelbegin \DIFdel{deposit }\DIFdelend \DIFaddbegin \DIFadd{archive and find }\DIFaddend research products created from each of the steps in the workflow\DIFdelbegin \DIFdel{(Figure~\ref{workflow}F)}\DIFdelend .
 Many repositories now create Digital Object Identifiers (DOIs)\cite{DOI2020}, or
 other permanent identifiers for their submissions, making them citable and
 easily linked to the contributing researchers via Open Researcher and Contributor
-IDs (ORCIDs)\cite{ORCID2020} (Figure~\ref{workflow}G). Many repositories follow the standards
+IDs (ORCIDs)\cite{ORCID2020} (Figure~\DIFdelbegin \DIFdel{\ref{workflow}G}\DIFdelend \DIFaddbegin \DIFadd{1G}\DIFaddend ). Many repositories follow the standards
 set by experts in the field, reporting information that is recommended for
 reproducibility while employing necessary practices to protect the privacy of
 sensitive information.
@@ -228,7 +233,7 @@ ahead to be sure her research is accessible and reusable by her lab, students an
 collaborators. She works in a competitive field, so she also wants to maintain 
 some privacy with regard to works in progress. She takes advantage of some
 repositories and tools that help make her work easier to find for a variety of
-users (Figure~\ref{workflow}F). This way nearly all of her major research products can be citable and
+users (Figure~\DIFdelbegin \DIFdel{\ref{workflow}F}\DIFdelend \DIFaddbegin \DIFadd{1F}\DIFaddend ). This way nearly all of her major research products can be citable and
 are interlinked. The resulting network of citations aids findability greatly:
 
 \begin{itemize}
@@ -620,5 +625,32 @@ think about the place[s] you made and perhaps ultimately, how they think about
 you'' \cite{Covert2014}.
 
 \bibliography{10-findable}
+\DIFaddbegin 
+
+\section*{\DIFadd{Figures}}
+
+\subsection*{\DIFadd{Figure~1: A typical research workflow.}}
+
+\noindent
+\DIFadd{A-E: Major steps of the research workflow.
+}
+
+\noindent
+\DIFadd{F: An example set of citable repositories or tools used to find research products 
+outside of journal articles.
+}
+
+\noindent
+\DIFadd{G: Persistent identifiers used for the example repositories listed.
+DOI: Digital Object Identifier,
+RRID: Research Resource Identifier,
+ROR: Research Organization Registry,
+ORCID: Open Researcher and Contributor ID.
+}
+
+\noindent
+\DIFadd{Some institutions maintain their own repositories for archiving data
+and may be available to researchers at a low or no cost
+}\DIFaddend 
 
 \end{document}
