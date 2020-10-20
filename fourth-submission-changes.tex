@@ -1,7 +1,47 @@
 \documentclass[10pt,letterpaper]{article}
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL third-submission.tex   Sat Oct 17 06:51:15 2020
+%DIF ADD 10-findable.tex        Sat Oct 17 06:54:31 2020
 \include{settings}
 
 \newcommand{\rulemajor}[1]{\section*{#1}}
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+\providecommand{\DIFmodbegin}{} %DIF PREAMBLE
+\providecommand{\DIFmodend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+%DIF LISTINGS PREAMBLE %DIF PREAMBLE
+\RequirePackage{listings} %DIF PREAMBLE
+\RequirePackage{color} %DIF PREAMBLE
+\lstdefinelanguage{DIFcode}{ %DIF PREAMBLE
+%DIF DIFCODE_UNDERLINE %DIF PREAMBLE
+  moredelim=[il][\color{red}\sout]{\%DIF\ <\ }, %DIF PREAMBLE
+  moredelim=[il][\color{blue}\uwave]{\%DIF\ >\ } %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstdefinestyle{DIFverbatimstyle}{ %DIF PREAMBLE
+	language=DIFcode, %DIF PREAMBLE
+	basicstyle=\ttfamily, %DIF PREAMBLE
+	columns=fullflexible, %DIF PREAMBLE
+	keepspaces=true %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim}{\lstset{style=DIFverbatimstyle}}{} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim*}{\lstset{style=DIFverbatimstyle,showspaces=true}}{} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
 
 \begin{document}
 \vspace*{0.2in}
@@ -89,8 +129,8 @@ The information you wish to convey and the way it is currently organized may
 make perfect sense to you, but its meaning for your users is determined by what
 \emph{they} interpret from the information they encounter and the way it's
 arranged. This means that the organizational strategies you use are a
-communication channel in their own right. To illustrate this, the author Jorge
-Luis Borges created a classification of animals whose categories included
+communication channel in their own right. To illustrate this, \DIFaddbegin \DIFadd{the author Jorge
+Luis }\DIFaddend Borges created a classification of animals whose categories included
 ``those belonging to the Emperor,'' ``embalmed ones,'' ``suckling pigs,''
 ``those included in this classification,'' ``those drawn with a very fine camel
 hair brush,'' and ``those that look like flies from far away'' \cite{Borges2000}.
@@ -133,13 +173,13 @@ feedback will help you discover any gaps in organizational alignment.
 Given the current state of technology it can be easy to rapidly create digital
 information. With the plethora of software and formats you may employ, you
 almost certainly have information in lots of different formats, file types and
-locations. Furthermore, the surge in use of preprints and other similar reserach 
+locations. \DIFaddbegin \DIFadd{Furthermore, the surge in use of preprints and other similar reserach 
 products has created an abundance of citable research products. While they are useful
 for demostrating open research productivity, they create an added challenge of finding 
 the many different types of research products that arise in the modern workflow.
-The second step in making things findable is to think ahead about
-the things you would want to be found at the completion of the project, including
-relevant preprints, before cataloging what you have. That way you can have time to 
+}\DIFaddend The second step in making things findable is to think ahead about
+the things you would want to be found at the completion of the project\DIFaddbegin \DIFadd{, including
+relevant preprints, }\DIFaddend before cataloging what you have. That way you can have time to 
 anticipate what can go where, and adapt if necessary before materials are published.
 
 This is particularly relevant when examining a typical research workflow. A
@@ -159,9 +199,9 @@ and published in a peer reviewed journal.
 \begin{figure}
   \includegraphics[width=\textwidth]{workflow.png}
   \captionsetup{justification=centering}
-  \caption{A typical research workflow. A-E: Major steps of the research workflow.
-  F: An example set of citable repositories or tools used to find research products 
-  outside of journal articles. G: Persistent identifiers used
+  \caption{A typical research workflow. A-E: Major \DIFdelbeginFL \DIFdelFL{components }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{steps }\DIFaddendFL of the research workflow.
+  F: An example set of citable repositories or tools \DIFaddbeginFL \DIFaddFL{used to find research products 
+  outside of journal articles}\DIFaddendFL . G: Persistent identifiers used
   for the example repositories listed. DOI: Digital Object Identifier, RRID: Research
   Resource Identifier, ROR: Research Organization Registry, ORCID: Open Researcher and 
   Contributor ID. * Some institutions maintain their own repositories for archiving data
@@ -173,8 +213,8 @@ By planning ahead, you can identify what research products can go where, and
 update them if necessary before materials are published in a peer-reviewed
 journal or cited in a grant application. Advancements in best-practices
 for making research products more `FAIR' has led to the creation of an array
-of discipline specific, and general repositories\cite{PLOS2020} (Figure~\ref{workflow}F). 
-Researchers can archive and find research products created from each of the steps in the workflow.
+of discipline specific, and general repositories\cite{PLOS2020} \DIFaddbegin \DIFadd{(Figure~\ref{workflow}F)}\DIFaddend . 
+Researchers can \DIFdelbegin \DIFdel{deposit }\DIFdelend \DIFaddbegin \DIFadd{archive and find }\DIFaddend research products created from each of the steps in the workflow\DIFdelbegin \DIFdel{(Figure~\ref{workflow}F)}\DIFdelend .
 Many repositories now create Digital Object Identifiers (DOIs)\cite{DOI2020}, or
 other permanent identifiers for their submissions, making them citable and
 easily linked to the contributing researchers via Open Researcher and Contributor
@@ -197,7 +237,7 @@ are interlinked. The resulting network of citations aids findability greatly:
   Finalized laboratory data is stored in Dryad\cite{DRYAD2020} which allows her 
   to cite the same data source in multiple publications with a single DOI. She can even 
   update the data archive as new pertinent data is collected and the link will not change.
- 
+
 \item
   Lab protocols maintained in Protocols.io\cite{Teytelman2016} ensure future
   collaborators, lab members and students can easily find her established
@@ -213,7 +253,7 @@ are interlinked. The resulting network of citations aids findability greatly:
   Posting finalized drafts of her student's research manuscripts on a preprint
   site like BioRxiv\cite{bioRxiv2020} enables colleagues to download the draft
   easily, discuss in an upcoming Journal Club, and publish the feedback publicly PREreview\cite{PREreview2020}.
-  
+
   \item
   Her ORCID identifier is linked to each of the DOIs created by these
   repositories, ensuring that students, collaborators, tenure committees, and
@@ -481,7 +521,7 @@ should:
 \item
   tag all items with a species, which might be ``unknown'' or ``NA'' (not
   available), or
-  
+
 \item
   tag all items at both general and increasingly specific categories if that is
   the standard for your discipline \cite{FAIR2020}.
