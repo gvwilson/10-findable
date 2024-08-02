@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "Please cite this paper as shown."
+authors:
+- family-names: "Lin"
+  given-names: "Sarah"
+  orcid: ""
+- family-names: "Ali"
+  given-names: "Ibraheem"
+  orcid: ""
+- family-names: "Wilson"
+  given-names: "Greg"
+  orcid: "https://orcid.org/0000-0001-8659-8979"
+title: "Ten quick tips for making things findable"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Lin"
+    given-names: "Sarah"
+    orcid: ""
+  - family-names: "Ali"
+    given-names: "Ibraheem"
+    orcid: ""
+  - family-names: "Wilson"
+    given-names: "Greg"
+    orcid: "https://orcid.org/0000-0001-8659-8979"
+  doi: "10.1371/journal.pcbi.1008469"
+  journal: "PLOS Computational Biology"
+  title: "Ten quick tips for making things findable"
+  volume: 16
+  issue: 12
+  year: 2020
+  month: 12
